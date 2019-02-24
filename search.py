@@ -23,11 +23,11 @@ import os
 import re
 
 
-def read_file(filepath):
+def read_file(filepath): # read file text
     with open(filepath, 'r', encoding='utf-8') as file:
         return file.read()
 
-def extract_meta(text):
+def extract_meta(text): # extract age, name and lang of the child
     data = {'file': '',
             'lang': '',
             'age': -1,
@@ -47,9 +47,14 @@ def extract_meta(text):
 
 
 
-def extract_words_by_participant(text):
+def extract_words_by_participant(text, words): # count how many times each word in words was used by each participant
+                                               # count the amount of utterances / words by each participant
     pass
 
+def walk(folder): # walk a folder and ???
+    for address, dirs, files in os.walk(folder):
+        for file in files:
+            print(address+'/'+file) # ???
 
 def main():
     text = read_file('020409.cha')
