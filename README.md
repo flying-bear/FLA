@@ -1,2 +1,2 @@
 # FLA
-code for parsing CHILDES corpus
+code for parsing [CHILDES](https://childes.talkbank.org/access/) corpus
