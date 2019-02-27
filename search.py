@@ -21,6 +21,8 @@
 
 import os
 import re
+from collections import Counter
+import matplotlib as plt
 
 
 def read_file(filepath): # read file text
@@ -28,10 +30,10 @@ def read_file(filepath): # read file text
         return file.read()
 
 def extract_meta(text): # extract age, name and lang of the child
-    data = {'file': '',
-            'lang': '',
+    data = {'lang': '',
             'age': -1,
-            'name': ''}
+            'name': '',
+            'participants': {}}
     match_lang = re.findall('@Languages:\t(.+)\n', text)
     if match_lang:
         data['lang'] = match_lang[0]
@@ -39,17 +41,42 @@ def extract_meta(text): # extract age, name and lang of the child
     if match_age:
         y,r = match_age[0].split(';')
         m,d = r.split('.')
-        data['age'] = 12*int(y) + int(m) + 1/30 * int(d)
+        if d:
+            data['age'] = 12*int(y) + int(m) + 1/30 * int(d)
+        else:
+            data['age'] = 12*int(y) + int(m)
     match_child = re.findall('@Participants:\tCHI (.+?) .+\n',text)
     if match_child:
         data['name'] = match_child[0]
+    match_participants = list(set(re.findall('(?:\t| )([A-Z]{3})', text)))
+    if match_participants:
+        data['participants'] = match_participants
     return data
 
 
 
-def extract_words_by_participant(text, words): # count how many times each word in words was used by each participant
+def extract_words_by_participant(text, words, participants): # count how many times each word in words was used by each participant
                                                # count the amount of utterances / words by each participant
-    pass
+    words_by_participant = dict(zip(participants, [dict(zip(words, [0 for j in range(len(words))])) for i in range(len(participants))]))
+    number_of_words_by_participant = dict(zip(participants, [0 for i in range(len(participants))]))
+    lines = text.split('\n')
+    for line in lines:
+        line = re.sub('[\!"#\$%&\\\(\)\+,-\.\/:;<=>\?@\[\]\^_`{\|}~]','',line) # strip punctuation
+        line = re.sub('\'(?:ll|d|s)','',line)
+        for p in participants:
+            if re.match(f'\*{p}', line):
+                line = line.lower()
+                all_line_words = line.split('\t')[1].split()
+                number_of_words_by_participant[p] += len(all_line_words)
+                counted_line_words = Counter(all_line_words)
+                for word in words:
+                    if word in all_line_words:
+                            words_by_participant[p][word] += counted_line_words[word]
+    for p in participants:
+        for word in words_by_participant[p]:
+            words_by_participant[p][word] = words_by_participant[p][word]/number_of_words_by_participant[p]
+    return words_by_participant
+
 
 def walk(folder): # walk a folder and ???
     for address, dirs, files in os.walk(folder):
@@ -57,8 +84,15 @@ def walk(folder): # walk a folder and ???
             print(address+'/'+file) # ???
 
 def main():
-    text = read_file('020409.cha')
-    print(extract_meta(text))
+    filepath = 'kevin2.cha'
+    text = read_file(filepath)
+    data = {'file': filepath}
+    data.update(extract_meta(text))
+    w_b_p = extract_words_by_participant(text, ['i', 'me', 'you', 'she', 'he', 'it'], data['participants'])
+    for p in w_b_p:
+        print(p)
+        for w in sorted(w_b_p[p]):
+            print(w+': '+str(w_b_p[p][w]))
 
 
 if __name__ == "__main__":
