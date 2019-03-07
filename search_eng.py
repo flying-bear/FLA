@@ -1,30 +1,23 @@
 ## sample of a file:
-##    @UTF8
-##    @PID:	11312/c-00028159-1
-##    @Begin
-##    @Languages:	fra
-##    @Participants:	CHI Marie Target_Child , MOT Mother , FAT Father
-##    @ID:	fra|Geneva|CHI|1;08.26||||Target_Child|||
-##    @ID:	fra|Geneva|MOT||female|||Mother|||
-##    @ID:	fra|Geneva|FAT||male|||Father|||
-##    @Media:	010826, audio, unlinked
-##    @Location:	at home , Geneva , CH
-##    @Date:	11-NOV-1995
-##    @Time Duration:	9:00-9:45
-##    @Comment:	Marie prononce la plupart du temps [z] pour (j) et (ge) et [s] pour (ch)
-##    @Comment:	MLU is 1.641
-##    *FAT:	alors Marie (.) qu'est ce que tu veux faire ?
-##    %mor:	adv|alors n:prop|Marie pro:rel|que$v:aux|être&PRES&3s pro:dem|ce
-##            adv|que pro:subj|tu v:mdl|vouloir&PRES&12s v:mdllex|faire-INF ?
-##    *FAT:	avec quoi tu joues là ?
-##    %mor:	prep|avec pro:int|quoi part|taire-PP&m v|jouer-PRES&SUB&2s
-##            adv:place|là ?
-##    *CHI:	le cocodicoda@c .
-##    %mor:	det:art|le&m&sg chi|cocodicoda .
-##    %com:	nom d'une chanson; Marie chante des variations sur le mot .
-##    *CHI:	non papa .
-##    %mor:	co|non=no n|papa&m .
-##    *FAT:	on fait le petit canard ?
+##  @UTF8
+##  @PID:	11312/c-00018977-1
+##  @Begin
+##  @Languages:	eng
+##  @Participants:	CHI Barbara Target_Child , MOT Ruth Mother , INV Cathy Investigator
+##  @ID:	eng|Belfast|CHI|2;04.09|female||MC|Target_Child|||
+##  @ID:	eng|Belfast|MOT||female|||Mother|||
+##  @ID:	eng|Belfast|INV|||||Investigator|||
+##  *MOT:	all these toys and everything !
+##  %mor:	qn|all pro:dem|these n|toy-PL coord|and pro:indef|everything !
+##  %gra:	1|3|QUANT 2|3|DET 3|0|INCROOT 4|3|CONJ 5|4|COORD 6|3|PUNCT
+##  *INV:	and look at all these videos (.) too .
+##  %mor:	coord|and cop|look prep|at qn|all pro:dem|these n|video-PL post|too
+##          .
+##  %gra:	1|2|LINK 2|0|ROOT 3|2|JCT 4|6|QUANT 5|6|DET 6|3|POBJ 7|6|PQ 8|2|PUNCT
+##  *CHI:	put it down a wee bit .
+##  %mor:	v|put&ZERO pro:per|it adv|down det:art|a n|wee n|bit .
+##  %gra:	1|0|ROOT 2|1|OBJ 3|1|JCT 4|6|DET 5|6|MOD 6|1|JCT 7|1|PUNCT
+##  @End
 
 import os
 import re
@@ -113,34 +106,29 @@ def walk(folder, words): # walk a folder and extract frequencies of a given word
             
 
 def main():
-    words = ['je', 'j\'','me', 'm\'', 'moi',
-             'tu', 'te', 't\'', 'toi'
-             'il', 'elle', 'lui', 'en', 'se', 's\'', 'soi', # la, le, \'l
-             'on', 'nous', # y
-             'vous',
-             'ils', 'elles', 'eux'] # leur, les
-##    db = walk(input('print root directory: '), words)
-##    with open('result.csv', 'w', encoding='utf-8') as file:
-##        file.write('path,filename,languge,age,childname,participant,')
-##        file.write(','.join(words)+'\n')
-##        for key in db:
-##            if not db[key]:
-##                continue
-##            for participant in db[key]['words_b_p']:
-##                line = [key, db[key]['meta']['filename'], db[key]['meta']['lang'], str(db[key]['meta']['age']), db[key]['meta']['name']]
-##                line.append(participant)
-##                for word in words:
-##                    line.append(str(db[key]['words_b_p'][participant][word]))
-##                file.write(','.join(line)+'\n')
-    filepath = '010826.cha'
-    text = read_file(filepath)
-    data = {'file': filepath}
-    data.update(extract_meta(text))
-    w_b_p = extract_words_by_participant(text, words, data['participants'])
-    for p in w_b_p:
-        print(p)
-        for w in sorted(w_b_p[p]):
-            print(w+': '+str(w_b_p[p][w]))
+    words = ['i', 'me', 'you', 'she', 'he', 'it']
+    db = walk(input('print root directory: '), words)
+    with open('result.csv', 'w', encoding='utf-8') as file:
+        file.write('path,filename,languge,age,childname,participant,')
+        file.write(','.join(words)+'\n')
+        for key in db:
+            if not db[key]:
+                continue
+            for participant in db[key]['words_b_p']:
+                line = [key, db[key]['meta']['filename'], db[key]['meta']['lang'], str(db[key]['meta']['age']), db[key]['meta']['name']]
+                line.append(participant)
+                for word in words:
+                    line.append(str(db[key]['words_b_p'][participant][word]))
+                file.write(','.join(line)+'\n')
+##    filepath = 'kevin2.cha'
+##    text = read_file(filepath)
+##    data = {'file': filepath}
+##    data.update(extract_meta(text))
+##    w_b_p = extract_words_by_participant(text, ['i', 'me', 'you', 'she', 'he', 'it'], data['participants'])
+##    for p in w_b_p:
+##        print(p)
+##        for w in sorted(w_b_p[p]):
+##            print(w+': '+str(w_b_p[p][w]))
 
 
 if __name__ == "__main__":

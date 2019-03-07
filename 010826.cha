@@ -1,0 +1,2172 @@
+@UTF8
+@PID:	11312/c-00028159-1
+@Begin
+@Languages:	fra
+@Participants:	CHI Marie Target_Child , MOT Mother , FAT Father
+@ID:	fra|Geneva|CHI|1;08.26||||Target_Child|||
+@ID:	fra|Geneva|MOT||female|||Mother|||
+@ID:	fra|Geneva|FAT||male|||Father|||
+@Media:	010826, audio, unlinked
+@Location:	at home , Geneva , CH
+@Date:	11-NOV-1995
+@Time Duration:	9:00-9:45
+@Comment:	Marie prononce la plupart du temps [z] pour (j) et (ge) et [s] pour (ch)
+@Comment:	MLU is 1.641
+*FAT:	alors Marie (.) qu'est ce que tu veux faire ?
+%mor:	adv|alors n:prop|Marie pro:rel|que$v:aux|être&PRES&3s pro:dem|ce
+	adv|que pro:subj|tu v:mdl|vouloir&PRES&12s v:mdllex|faire-INF ?
+*FAT:	avec quoi tu joues là ?
+%mor:	prep|avec pro:int|quoi part|taire-PP&m v|jouer-PRES&SUB&2s
+	adv:place|là ?
+*CHI:	le cocodicoda@c .
+%mor:	det:art|le&m&sg chi|cocodicoda .
+%com:	nom d'une chanson; Marie chante des variations sur le mot .
+*CHI:	non papa .
+%mor:	co|non=no n|papa&m .
+*FAT:	on fait le petit canard ?
+%mor:	pro:subj|on part|faire-PP&m det:art|le&m&sg adj|petit&m
+	n|canard&m=duck ?
+*CHI:	non .
+%mor:	co|non=no .
+*FAT:	tu veux pas faire le canard ?
+%mor:	pro:subj|tu v:mdl|vouloir&IMP&2s adv:neg|pas v:mdl|faire-INF
+	det:art|le&m&sg n|canard&m=duck ?
+*CHI:	non (.) pas là .
+%mor:	co|non=no adv:neg|pas adv:place|là .
+*CHI:	là .
+%mor:	adv:place|là .
+*FAT:	tu veux te coucher ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s pro:obj|te v|coucher-INF ?
+*CHI:	non papa .
+%mor:	co|non=no n|papa&m .
+*CHI:	là [/] (.) là .
+%mor:	adv:place|là .
+*FAT:	hein ?
+%mor:	co|hein ?
+*CHI:	hein ?
+%mor:	co|hein ?
+*CHI:	non [/] non .
+%mor:	co|non=no .
+*CHI:	pas canard .
+%mor:	adv:neg|pas n|canard&m=duck .
+*FAT:	pas l(e) canard ?
+%mor:	adv:neg|pas det:art|le&m&sg n|canard&m=duck ?
+*CHI:	pas canard .
+%mor:	adv:neg|pas n|canard&m=duck .
+*CHI:	xxx .
+*FAT:	alors on met +//.
+%mor:	adv|alors pro:subj|on v|mettre-PRES&3s +//.
+*FAT:	on met l(e) canard de côté .
+%mor:	pro:subj|on v|mettre-PRES&3s det:art|le&m&sg n|canard&m=duck
+	prep|de n|côté&m .
+*CHI:	non papa .
+%mor:	co|non=no n|papa&m .
+*CHI:	là .
+%mor:	adv:place|là .
+*FAT:	qu'est ce que tu veux faire ?
+%mor:	pro:rel|que$v:aux|être&PRES&3s pro:dem|ce adv|que pro:subj|tu
+	v:mdl|vouloir&PRES&12s v:mdllex|faire-INF ?
+*FAT:	hein ?
+%mor:	co|hein ?
+*FAT:	qu'est ce que tu veux faire ?
+%mor:	pro:rel|que$v:aux|être&PRES&3s pro:dem|ce adv|que pro:subj|tu
+	v:mdl|vouloir&PRES&12s v:mdllex|faire-INF ?
+*FAT:	il faut que j(e) me couche ?
+%mor:	pro:subj|il v:mdl|falloir&PRES&3s pro:rel|que pro:subj|je
+	pro:obj|me v|coucher-PRES&SUB&13s ?
+*CHI:	non .
+%mor:	co|non=no .
+*FAT:	non .
+%mor:	co|non=no .
+*FAT:	c'est toi qui te couches alors (.) non ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro|toi&sg pro:int|qui pro:obj|te
+	v|coucher-PRES&SUB&2s adv|alors co|non=no ?
+*FAT:	tu veux jouer avec tes boules ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s v|jouer-INF prep|avec
+	det:poss|tes&pl n|boule&f-PL ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	ouais ?
+%mor:	co|ouais=yes ?
+*FAT:	dans la maison alors ?
+%mor:	prep|dans det:art|la&f&sg n|maison&f adv|alors ?
+*CHI:	alors [/] alors [/] alors .
+%mor:	adv|alors .
+%com:	Marie répète plusieurs fois le mot .
+*CHI:	xxx là .
+%mor:	adv:place|là .
+*CHI:	<co(mme) ça> [/] .
+*CHI:	<co(mme) ça> [/] .
+*CHI:	co(mme) ça ?
+%mor:	adv|comme pro:dem|ça ?
+*FAT:	ouais (.) comme ça .
+%mor:	co|ouais=yes adv|comme pro:dem|ça .
+*FAT:	xxx .
+*FAT:	alors +/.
+%mor:	adv|alors +/.
+*CHI:	xxx dans l'eau .
+%mor:	prep|dans det:art|le$n|eau&f .
+*CHI:	xxx .
+%com:	Marie babille
+*CHI:	va dans l'eau xxx .
+%mor:	v:mdl|aller&PRES&3s prep|dans det:art|le$n|eau&f .
+*FAT:	c'est lequel c(el)ui-là ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:rel|lequel&m&sg pro:dem|celui-là
+	?
+*CHI:	xxx un papon@wp .
+%mor:	det:art|un&m&sg wplay|papon .
+*CHI:	c'est un poisson .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg n|poisson&m .
+*FAT:	c'est un poisson (.) oui .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg n|poisson&m
+	co|oui=yes .
+*CHI:	co(mme) ça ?
+%mor:	adv|comme pro:dem|ça ?
+*FAT:	i(l) va où ?
+%mor:	pro:subj|il v:mdl|aller&PRES&3s pro:rel|où ?
+*FAT:	i(l) va où le poisson ?
+%mor:	pro:subj|il v:mdl|aller&PRES&3s pro:rel|où det:art|le&m&sg
+	n|poisson&m ?
+*CHI:	là .
+%mor:	adv:place|là .
+*FAT:	d'accord .
+%mor:	adv|d'accord .
+*CHI:	<co(mme) ça> [/] ?
+*CHI:	co(mme) ça ?
+%mor:	adv|comme pro:dem|ça ?
+*FAT:	on peut faire c(el)ui-là aussi (.) oui .
+%mor:	pro:subj|on v:mdl|pouvoir&PRES&3s v:mdl|faire-INF pro:dem|celui-là
+	adv|aussi n|oui&m .
+*FAT:	voilà (.) on le lève plus .
+%mor:	adv:place|voilà pro:subj|on pro:obj|le v|lever-PRES&SUB&13s qn|plus
+	.
+*CHI:	là (.) là .
+%mor:	adv:place|là adv:place|là .
+*FAT:	ça c'est quoi ?
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s pro:int|quoi ?
+*CHI:	nunununus@c .
+%mor:	chi|nunununus .
+*FAT:	c'est un nounours (.) oui .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg
+	n|nounours&m=teddy_bear co|oui=yes .
+*FAT:	il va où le nounours ?
+%mor:	pro:subj|il v:mdl|aller&PRES&3s pro:rel|où det:art|le&m&sg
+	n|nounours&m=teddy_bear ?
+*CHI:	là .
+%mor:	adv:place|là .
+*FAT:	d'accord .
+%mor:	adv|d'accord .
+*FAT:	xxx .
+*CHI:	kaka@u nounou(r)s .
+%mor:	uni|kaka n|nounours&m=teddy_bear .
+*FAT:	je t'aide un tout p(e)tit peu .
+%mor:	pro:subj|je pro:obj|te$v|aider-PRES&SUB&13s det:art|un&m&sg
+	n|tout&m adj|petit&m n|peu&m .
+*CHI:	<kaka@u nounou(r)s> [/] .
+*CHI:	kaka@u nounou(r)s .
+%mor:	uni|kaka n|nounours&m=teddy_bear .
+*CHI:	c'est un kaka@u nununus@c .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg uni|kaka chi|nununus
+	.
+*CHI:	c'est quoi nounou(r)s ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:rel|quoi n|nounours&m=teddy_bear
+	?
+*CHI:	c'est quoi le nounou(r)s ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:int|quoi det:art|le&m&sg
+	n|nounours&m=teddy_bear ?
+*CHI:	c'est quoi un nounou(r)s ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:int|quoi det:art|un&m&sg
+	n|nounours&m=teddy_bear ?
+*CHI:	il est là .
+%mor:	pro:subj|il v:aux|être&PRES&3s adv:place|là .
+*CHI:	oh (i)l est là .
+%mor:	co|oh pro:subj|il v:aux|être&PRES&3s adv:place|là .
+*CHI:	oh (.) là ?
+%mor:	co|oh adv:place|là ?
+*FAT:	oui (.) tout à fait .
+%mor:	co|oui=yes n|tout&m prep|à part|faire-PP&m .
+*FAT:	ça c'est un petit éléphant .
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg
+	adj|petit&m n|éléphant&m .
+*CHI:	(v)oilà .
+%mor:	adv:place|voilà .
+*FAT:	ça aussi c'est un petit éléphant (.) mais ce(l)ui-là il est dans [/] dans une voiture .
+%mor:	pro:dem|ça adv|aussi pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg
+	adj|petit&m n|éléphant&m adv|mais pro:dem|celui-là pro:subj|il
+	v:aux|être&PRES&3s prep|dans det:art|une&f&sg n|voiture&f .
+*FAT:	et puis ça c'est quoi (.) Marie ?
+%mor:	conj|et adv|puis pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s
+	pro:int|quoi n:prop|Marie ?
+*CHI:	(k)o(a)la .
+%mor:	n|koala&m .
+*FAT:	ouais (.) koala .
+%mor:	co|ouais=yes n|koala&m .
+*CHI:	(k)o(a)la ?
+%mor:	n|koala&m ?
+*FAT:	et puis ça c'est quoi ?
+%mor:	conj|et adv|puis pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s
+	pro:int|quoi ?
+*FAT:	un pingouin ?
+%mor:	det:art|un&m&sg n|pingouin&m ?
+*CHI:	(k)o(a)la .
+%mor:	n|koala&m .
+*FAT:	d'accord .
+%mor:	adv|d'accord .
+*CHI:	oh (.) ko(a)la .
+%mor:	co|oh n|koala&m .
+*CHI:	ça ?
+%mor:	pro:dem|ça ?
+*CHI:	ça ?
+%mor:	pro:dem|ça ?
+*CHI:	xxx .
+*CHI:	<aka@u la boule> [/] ?
+*CHI:	<aka@u la boule> [/] ?
+*CHI:	aka@u la boule ?
+%mor:	uni|aka det:art|la&f&sg n|boule&f ?
+*FAT:	si tu veux (.) oui .
+%mor:	adv|si pro:subj|tu v:mdl|vouloir&PRES&12s n|oui&m .
+*CHI:	ça .
+%mor:	pro:dem|ça .
+*FAT:	t(u) arrives pas à les attraper ?
+%mor:	pro:subj|tu v|arriver-PRES&SUB&2s adv:neg|pas prep|à det:art|les&pl
+	v|attraper-INF=catch ?
+*FAT:	ah (.) ça va .
+%mor:	co|ah pro:dem|ça v:mdl|aller&PRES&3s .
+*CHI:	ça va ?
+%mor:	pro:dem|ça v:mdl|aller&PRES&3s ?
+*FAT:	ça va .
+%mor:	pro:dem|ça v:mdl|aller&PRES&3s .
+*CHI:	<ça va> [/] ?
+*CHI:	ça va ?
+%mor:	pro:dem|ça v:mdl|aller&PRES&3s ?
+*CHI:	voilà [/] .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	tu veux faire quoi avec tes boules ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s v:mdl|faire-INF pro:int|quoi
+	prep|avec det:poss|tes&pl n|boule&f-PL ?
+*CHI:	là .
+%mor:	adv:place|là .
+%com:	Marie joue avec ses billes .
+*CHI:	la balle là .
+%mor:	det:art|la&f&sg n|balle&f adv:place|là .
+*CHI:	ɘla@u [/] ɘla@u .
+%mor:	uni|ɘla .
+*FAT:	oui (.) ça va là dedans .
+%mor:	co|oui=yes pro:dem|ça v:mdl|aller&PRES&3s adv:place|là
+	adv:place|dedans .
+*FAT:	tu veux que je mette ça en place ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s pro:rel|que pro:subj|je
+	v|mettre-PRES&SUB&13s pro:dem|ça prep|en n|place&f ?
+*FAT:	tu me donnes la porte ?
+%mor:	pro:subj|tu pro:obj|me v|donner-PRES&SUB&2s det:art|la&f&sg
+	n|porte&f=door ?
+*FAT:	voilà (.) c'est bon .
+%mor:	adv:place|voilà pro:dem|ce$v:exist|être&PRES&3s co|bon .
+*CHI:	xxx .
+*FAT:	oui (.) mais on a besoin de la clé là pour ouvrir .
+%mor:	co|oui=yes adv|mais pro:subj|on v:aux|avoir&PRES&3s n|besoin&m
+	prep|de det:art|la&f&sg n|clé&f adv:place|là prep|pour v|ouvrir-INF
+	.
+*FAT:	oui (.) c'est juste .
+%mor:	co|oui=yes pro:dem|ce$v:exist|être&PRES&3s adv|juste .
+*FAT:	c'est la clé jaune .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|la&f&sg n|clé&f adj|jaune .
+*CHI:	xxx .
+*FAT:	non [/] non .
+%mor:	co|non=no .
+*FAT:	c'était +//.
+%mor:	pro:dem|ce$v:aux|être&IMPF&3s +//.
+*FAT:	voilà c'était juste .
+%mor:	adv:place|voilà pro:dem|ce$v:exist|être&IMPF&3s adv|juste .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	attends !
+%mor:	v|attendre-IMP&2s !
+*FAT:	refais ce que tu viens de faire là avec la clé !
+%mor:	re#v:mdl|faire-PRES&12s pro:dem|ce adv|que pro:subj|tu
+	v|venir-PRES&12s prep|de v:mdllex|faire-INF adv:place|là prep|avec
+	det:art|la&f&sg n|clé&f !
+*FAT:	d'accord ?
+%mor:	adv|d'accord ?
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	attends !
+%mor:	v|attendre-IMP&2s !
+*FAT:	c'était dans l'autre sens .
+%mor:	pro:dem|ce$v:aux|être&IMPF&3s prep|dans det:art|le$pro|autre&sg
+	n|sens&m .
+*CHI:	la porte ?
+%mor:	det:art|la&f&sg n|porte&f=door ?
+*CHI:	<la porte> [/] (.) la porte (.) la +/.
+%mor:	det:art|la&f&sg n|porte&f=door det:art|la&f&sg +/.
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	et qu'est ce qu'il y a derrière la porte ?
+%mor:	conj|et pro:int|que$v:aux|être&PRES&3s pro:dem|ce
+	pro:rel|que$pro:subj|il pro:y|y v:aux|avoir&PRES&3s
+	adv:place|derrière det:art|la&f&sg n|porte&f=door ?
+*CHI:	un wawa@c .
+%mor:	det:art|un&m&sg chi|wawa .
+*FAT:	un chien oui (.) et puis quoi d'autre ?
+%mor:	det:art|un&m&sg n|chien&m co|oui=yes conj|et adv|puis pro:int|quoi
+	prep|de$pro|autre&sg ?
+*CHI:	xxx la dame .
+%mor:	det:art|la&f&sg n|dame&f=lady .
+*CHI:	c'est a@u dame .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s uni|a n|dame&f=lady .
+*FAT:	c'est une dame .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|une&f&sg n|dame&f=lady .
+*FAT:	tu viens regarder un livre ?
+%mor:	pro:subj|tu v|venir-PRES&12s v|regarder-INF det:art|un&m&sg n|livre
+	?
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	ɘla@u dodo .
+%mor:	uni|ɘla n|dodo&m=sleep .
+*CHI:	chut xxx .
+%mor:	co|chut .
+*FAT:	ta poupée est au lit .
+%mor:	det:poss|ta&f&sg n|poupée&f v:aux|être&PRES&3s prep|à&le n|lit&m .
+*CHI:	dodo .
+%mor:	co|dodo .
+*FAT:	elle va faire dodo ?
+%mor:	pro:subj|elle v:mdl|aller&PRES&3s v:mdl|faire-INF co|dodo ?
+*CHI:	là .
+%mor:	adv:place|là .
+*FAT:	oui ?
+%mor:	co|oui=yes ?
+*FAT:	c'est bon .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s co|bon .
+*FAT:	elle est au lit ?
+%mor:	pro:subj|elle v:aux|être&PRES&3s prep|à&le n|lit&m ?
+*FAT:	elle dort déjà ?
+%mor:	pro:subj|elle v|dormir-PRES&3s adv|déjà ?
+*CHI:	xxx .
+*FAT:	ah (.) il faut fermer le lit .
+%mor:	co|ah pro:subj|il v:mdl|falloir&PRES&3s v|fermer-INF
+	det:art|le&m&sg n|lit&m .
+*FAT:	attends !
+%mor:	v|attendre-IMP&2s !
+*FAT:	je viens t'aider .
+%mor:	pro:subj|je v|venir-PRES&12s pro:obj|te$v|aider-INF .
+*CHI:	dodo .
+%mor:	co|dodo .
+*FAT:	elle fait dodo (.) d'accord .
+%mor:	pro:subj|elle v:mdllex|faire-PRES&3s co|dodo adv|d'accord .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	dodo .
+%mor:	co|dodo .
+*FAT:	oui .
+%mor:	co|oui=yes .
+*CHI:	va va là .
+%mor:	v:mdl|aller&PRES&3s v:mdl|aller&PRES&3s adv:place|là .
+*CHI:	<va là> [/] .
+*CHI:	va là .
+%mor:	v:mdl|aller&PRES&3s adv:place|là .
+*CHI:	là .
+%mor:	adv:place|là .
+*CHI:	xxx .
+*CHI:	va là .
+%mor:	v:mdl|aller&PRES&3s adv:place|là .
+*CHI:	là .
+%mor:	adv:place|là .
+*CHI:	<va là> [/] .
+*CHI:	va là .
+%mor:	v:mdl|aller&PRES&3s adv:place|là .
+*CHI:	là .
+%mor:	adv:place|là .
+%com:	Marie range des jouets .
+*FAT:	c'est bien comme ça ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s n|bien&m adv|comme pro:dem|ça ?
+*CHI:	xxx .
+*CHI:	(i)l est papue@c ça .
+%mor:	pro:subj|il v:aux|être&PRES&3s chi|papue pro:dem|ça .
+*FAT:	oui (.) ça c'est du papier .
+%mor:	co|oui=yes pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s prep|de&le
+	n|papier&m .
+*CHI:	<ça papier> [/] .
+*CHI:	ça papier .
+%mor:	pro:dem|ça n|papier&m .
+*CHI:	papapa@u .
+%mor:	uni|papapa .
+*CHI:	ça [/] ça papon@wp .
+%mor:	pro:dem|ça wplay|papon .
+*CHI:	xxx .
+%com:	Marie babille .
+*CHI:	xxx padon [: poisson] .
+%mor:	n|poisson&m .
+*CHI:	pazon [: poisson] .
+%mor:	n|poisson&m .
+*CHI:	pason [: poisson] .
+%mor:	n|poisson&m .
+*FAT:	tu cherches le poisson ?
+%mor:	pro:subj|tu v|chercher-PRES&SUB&2s det:art|le&m&sg n|poisson&m ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	il est peut-être ailleurs .
+%mor:	pro:subj|il v:aux|être&PRES&3s adv|peut-être adv|ailleurs .
+*FAT:	je sais pas où il est dessiné le poisson .
+%mor:	pro:subj|je v:mdl|savoir&PRES&12s adv:neg|pas pro:int|où
+	pro:subj|il v:aux|être&PRES&3s part|dessiner-PP&m det:art|le&m&sg
+	n|poisson&m .
+*FAT:	là il y avait un poisson .
+%mor:	adv:place|là pro:subj|il pro:y|y v:aux|avoir&IMPF&3s
+	det:art|un&m&sg n|poisson&m .
+*CHI:	non .
+%mor:	co|non=no .
+*CHI:	xxx le pason [: poisson] ?
+%mor:	det:art|le&m&sg n|poisson&m ?
+*FAT:	et puis de l'autre côté (.) qu'est ce qu'il y avait ?
+%mor:	conj|et adv|puis prep|de det:art|le$pro|autre&sg n|côté&m
+	pro:int|que$v:aux|être&PRES&3s pro:dem|ce pro:rel|que$pro:subj|il
+	pro:y|y v:aux|avoir&IMPF&3s ?
+*CHI:	là (.) le lapin .
+%mor:	adv:place|là det:art|le&m&sg n|lapin&m .
+*FAT:	oui (.) il y avait le lapin .
+%mor:	co|oui=yes pro:subj|il pro:y|y v:aux|avoir&IMPF&3s det:art|le&m&sg
+	n|lapin&m .
+*CHI:	xxx tayon [: crayon] .
+%mor:	n|crayon&m .
+*FAT:	tu veux des crayons ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s prep|de&les n|crayon&m-PL ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	je crois qu'ils sont là .
+%mor:	pro:subj|je v|croire&PRES&12s pro:rel|que$pro:subj|ils
+	v:aux|être&PRES&3p adv:place|là .
+*FAT:	tu les a mis dans la boîte hier .
+%mor:	pro:subj|tu pro:obj|les v:aux|avoir&PRES&3s part|mettre-PP&m
+	prep|dans det:art|la&f&sg n|boîte&f n|hier&m .
+*FAT:	tout ce qu'on met dans la boîte +//.
+%mor:	n|tout&m pro:dem|ce pro:rel|que$pro:subj|on v|mettre-PRES&3s
+	prep|dans det:art|la&f&sg n|boîte&f +//.
+*FAT:	tu vois ?
+%mor:	pro:subj|tu v|voir&IMP&PRES&12s ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	hop là .
+%mor:	co|hop adv:place|là .
+*CHI:	ah (.) ça là .
+%mor:	co|ah pro:dem|ça adv:place|là .
+*FAT:	tu veux lequel ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s pro:rel|lequel&m&sg ?
+*CHI:	là .
+%mor:	adv:place|là .
+*CHI:	ça .
+%mor:	pro:dem|ça .
+*FAT:	le rouge ?
+%mor:	det:art|le&m&sg adj|rouge ?
+*CHI:	là (.) ça ?
+%mor:	adv:place|là pro:dem|ça ?
+*FAT:	ça ?
+%mor:	pro:dem|ça ?
+*CHI:	ça .
+%mor:	pro:dem|ça .
+*FAT:	le jaune ?
+%mor:	det:art|le&m&sg adj|jaune ?
+*CHI:	non .
+%mor:	co|non=no .
+*CHI:	là (.) padon [: poisson] dans l'eau .
+%mor:	adv:place|là n|poisson&m prep|dans det:art|le$n|eau&f .
+*CHI:	xxx .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+%com:	Marie manipule les crayons .
+*FAT:	qu'est ce que tu veux qu'on dessine ?
+%mor:	pro:int|que$v:aux|être&PRES&3s pro:dem|ce adv|que pro:subj|tu
+	v:mdl|vouloir&PRES&12s pro:rel|que$pro:subj|on
+	v|dessiner-PRES&SUB&13s ?
+*CHI:	là ?
+%mor:	adv:place|là ?
+%com:	Marie dessine .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	tu veux que je te dessine un petit chien ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s pro:rel|que pro:subj|je
+	pro:obj|te v|dessiner-PRES&SUB&13s det:art|un&m&sg adj|petit&m
+	n|chien&m ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	donne moi les crayons !
+%mor:	v|donner-IMP&2s pro|moi&sg det:art|les&pl n|crayon&m-PL !
+*FAT:	il faut me laisser les crayons (.) si tu veux que je te dessine un petit chien .
+%mor:	pro:subj|il v:mdl|falloir&PRES&3s pro:obj|me v|laisser-INF
+	det:art|les&pl n|crayon&m-PL adv|si pro:subj|tu
+	v:mdl|vouloir&PRES&12s pro:rel|que pro:subj|je pro:obj|te
+	v|dessiner-PRES&SUB&13s det:art|un&m&sg adj|petit&m n|chien&m .
+*CHI:	xxx wawa@c .
+%mor:	chi|wawa .
+*FAT:	ouais xxx .
+%mor:	co|ouais=yes .
+*CHI:	le wawa@c .
+%mor:	det:art|le&m&sg chi|wawa .
+*FAT:	oui (.) le wawa@c .
+%mor:	co|oui=yes det:art|le&m&sg chi|wawa .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	là papa .
+%mor:	adv:place|là n|papa&m .
+*CHI:	tiens !
+%mor:	v|tenir-IMP&2s !
+*CHI:	xxx .
+*FAT:	avec celui-là (.) on continue ?
+%mor:	prep|avec pro:dem|celui-là pro:subj|on v|continuer-PRES&SUB&13s ?
+*CHI:	non .
+%mor:	co|non=no .
+*FAT:	non ?
+%mor:	co|non=no ?
+*FAT:	il va pas bien celui-là ?
+%mor:	pro:subj|il v:mdl|aller&PRES&3s adv:neg|pas n|bien&m
+	pro:dem|celui-là ?
+*CHI:	co(mme) ça .
+%mor:	adv|comme pro:dem|ça .
+*CHI:	xxx .
+*FAT:	lequel ?
+%mor:	pro:int|lequel&m&sg ?
+*FAT:	celui-là ?
+%mor:	pro:dem|celui-là ?
+*CHI:	co(mme) ça .
+%mor:	adv|comme pro:dem|ça .
+*FAT:	le jaune .
+%mor:	det:art|le&m&sg adj|jaune .
+*CHI:	co(mme) ça .
+%mor:	adv|comme pro:dem|ça .
+*FAT:	faut dessiner le poisson là ?
+%mor:	v:mdl|falloir&PRES&3s v|dessiner-INF det:art|le&m&sg n|poisson&m
+	adv:place|là ?
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	xxx .
+*CHI:	xxx wawa@c .
+%mor:	chi|wawa .
+*CHI:	(d'ac)cord ?
+%mor:	adv|d'accord ?
+*CHI:	xxx dodo .
+%mor:	co|dodo .
+*CHI:	xxx wawa@c .
+%mor:	chi|wawa .
+%com:	Marie dessine et babille .
+*CHI:	xxx main .
+%mor:	n|main&f .
+*FAT:	alors (.) tu veux qu'on dessine la main .
+%mor:	adv|alors pro:subj|tu v:mdl|vouloir&PRES&12s
+	pro:rel|que$pro:subj|on v|dessiner-PRES&SUB&13s det:art|la&f&sg
+	n|main&f .
+*FAT:	mets ta main !
+%mor:	v|mettre-IMP&2s det:poss|ta&f&sg n|main&f !
+*FAT:	je te xxx .
+%mor:	pro:subj|je pro:obj|te .
+*FAT:	écarte bien les doigts !
+%mor:	v|écarter-PRES&SUB&13s adv|bien det:art|les&pl n|doigt&m-PL !
+*CHI:	xxx .
+*FAT:	d'accord (.) alors ouvre un peu les doigts +//.
+%mor:	adv|d'accord adv|alors v|ouvrir-PRES&SUB&13s det:art|un&m&sg
+	n|peu&m det:art|les&pl n|doigt&m-PL +//.
+*CHI:	xxx .
+*FAT:	pour que je puisse passer avec le crayon entre les doigts .
+%mor:	prep|pour pro:rel|que pro:subj|je v:mdl|pouvoir&PRES&SUB&13s
+	v|passer-INF prep|avec det:art|le&m&sg n|crayon&m prep|entre
+	det:art|les&pl n|doigt&m-PL .
+*FAT:	tu vois ?
+%mor:	pro:subj|tu v|voir&IMP&PRES&12s ?
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	hop [/] hop [/] hop .
+%mor:	co|hop .
+*CHI:	(v)oilà papa .
+%mor:	adv:place|voilà n|papa&m .
+*FAT:	attends +//.
+%mor:	v|attendre-IMP&2s +//.
+*FAT:	hop .
+%mor:	co|hop .
+*FAT:	que j'ai fini .
+%mor:	pro:int|que pro:subj|je$v:aux|avoir&PRES&1s part|finir-PP&m .
+*FAT:	encore le dernier doigt .
+%mor:	adv|encore det:art|le&m&sg n|dernier&m n|doigt&m .
+*FAT:	voilà (.) la main .
+%mor:	adv:place|voilà det:art|la&f&sg n|main&f .
+*FAT:	c'est quoi ici ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:int|quoi adv:place|ici ?
+*FAT:	là ?
+%mor:	adv:place|là ?
+*FAT:	c'est quoi cette partie là ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:int|quoi det:dem|cette&f&sg
+	part|partir-PP&f adv:place|là ?
+*CHI:	xxx aussi .
+%mor:	adv|aussi .
+*CHI:	aussi .
+%mor:	adv|aussi .
+*FAT:	l'autre main aussi ?
+%mor:	det:art|le$pro|autre&sg n|main&f adv|aussi ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	on a fait qu'un doigt .
+%mor:	pro:subj|on v:aux|avoir&PRES&3s part|faire-PP&m pro:int|que$v|unir
+	n|doigt&m .
+*FAT:	et les autres doigts alors ?
+%mor:	conj|et det:art|les&pl pro|autres&pl n|doigt&m-PL adv|alors ?
+*CHI:	là [/] .
+*CHI:	là .
+%mor:	adv:place|là .
+*FAT:	continue !
+%mor:	v|continuer-IMP&2s !
+*FAT:	un autre doigt .
+%mor:	det:art|un&m&sg pro|autre&sg n|doigt&m .
+*FAT:	un autre doigt .
+%mor:	det:art|un&m&sg pro|autre&sg n|doigt&m .
+*CHI:	là .
+%mor:	adv:place|là .
+%com:	Marie dessine .
+*CHI:	non (.) pas ça .
+%mor:	co|non=no adv:neg|pas pro:dem|ça .
+*CHI:	(v)oilà .
+%mor:	adv:place|voilà .
+*CHI:	xxx .
+%com:	Marie imite un chien .
+*CHI:	<co(u)cher papa> [/] !
+*CHI:	<co(u)cher papa> [/] !
+*CHI:	co(u)cher papa !
+%mor:	v|coucher-INF n|papa&m !
+*FAT:	d'accord (.) je me couche .
+%mor:	adv|d'accord pro:subj|je pro:obj|me v|coucher-PRES&SUB&13s .
+*CHI:	ɘ@u coucher .
+%mor:	uni|ɘ n|coucher&m .
+*CHI:	coucher .
+%mor:	v|coucher-INF .
+*CHI:	te coucher .
+%mor:	pro:obj|te v|coucher-INF .
+*FAT:	comme ça (.) ça va ?
+%mor:	adv|comme pro:dem|ça pro:dem|ça v:mdl|aller&PRES&3s ?
+*CHI:	tiens [/] !
+*CHI:	tiens !
+%mor:	v|tenir-IMP&2s !
+*FAT:	merci .
+%mor:	co|merci .
+*FAT:	ah elle est tombée la girafe .
+%mor:	co|ah pro:subj|elle v:aux|être&PRES&3s part|tomber-PP&f
+	det:art|la&f&sg n|girafe&f .
+*CHI:	tiens [/] tiens !
+%mor:	v|tenir-IMP&2s !
+*FAT:	merci .
+%mor:	co|merci .
+*CHI:	tiens un +//.
+%mor:	v|tenir-IMP&2s pro|un&m&sg +//.
+*FAT:	merci .
+%mor:	co|merci .
+*CHI:	xxx .
+*FAT:	encore ?
+%mor:	adv|encore ?
+*FAT:	mon dieu (.) je vais être recouvert de p(e)luches .
+%mor:	det:poss|mon&m&sg n|dieu&m pro:subj|je v:mdl|aller&PRES&1s
+	v:aux|être&INF re#part|couvrir-PP&m prep|de n|peluche&f-PL .
+*FAT:	il y en a encore ?
+%mor:	pro:subj|il pro:y|y pro:y|en v:aux|avoir&PRES&3s adv|encore ?
+*CHI:	hein ?
+%mor:	co|hein ?
+*FAT:	encore d'autres ?
+%mor:	adv|encore prep|de$pro|autres&pl ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	qu'est ce qui te reste ?
+%mor:	pro:int|que$v:aux|être&PRES&3s pro:dem|ce pro:int|qui pro:obj|te
+	n|reste&m ?
+*CHI:	ɘ@u wawa@c .
+%mor:	uni|ɘ chi|wawa .
+*FAT:	oh il y a le chien (.) oui .
+%mor:	co|oh pro:subj|il pro:y|y v:aux|avoir&PRES&3s det:art|le&m&sg
+	n|chien&m co|oui=yes .
+*CHI:	xxx .
+*CHI:	et tiens !
+%mor:	conj|et v|tenir-IMP&2s !
+*FAT:	merci .
+%mor:	co|merci .
+*CHI:	ɘ@u co(u)cher .
+%mor:	uni|ɘ n|coucher&m .
+*CHI:	co(u)cher &c &c .
+%mor:	v|coucher-INF .
+*CHI:	aussi co(u)cher .
+%mor:	adv|aussi n|coucher&m .
+*CHI:	ɘ@u co(u)cher .
+%mor:	uni|ɘ n|coucher&m .
+*CHI:	aussi co(u)cher .
+%mor:	adv|aussi n|coucher&m .
+*CHI:	ɘ@u couche .
+%mor:	uni|ɘ n|couche&f .
+*FAT:	Marie aussi se couche ?
+%mor:	n:prop|Marie adv|aussi pro:refl|se n|couche&f ?
+*FAT:	d'accord .
+%mor:	adv|d'accord .
+*CHI:	ah oui .
+%mor:	co|ah co|oui=yes .
+*FAT:	t(u) as de la place ?
+%mor:	pro:subj|tu v:aux|avoir&PRES&2s prep|de det:art|la&f&sg n|place&f ?
+*FAT:	attends !
+%mor:	v|attendre-IMP&2s !
+*FAT:	je me pousse un peu .
+%mor:	pro:subj|je pro:obj|me v|pousser-PRES&SUB&13s det:art|un&m&sg
+	n|peu&m .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	t(u) es co(u)ché .
+%mor:	pro:subj|tu v:aux|être&PRES&2s part|coucher-PP&m .
+*CHI:	voilà [/] .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	tu veux aussi des p(e)luches avec toi ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s adv|aussi prep|de&les
+	n|peluche&f-PL prep|avec pro|toi&sg ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	je te passe ton nounours ?
+%mor:	pro:subj|je pro:obj|te v|passer-PRES&SUB&13s det:poss|ton&m&sg
+	n|nounours&m=teddy_bear ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	tu veux ton guignol ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s det:poss|ton&m&sg n|guignol&m ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	tiens !
+%mor:	v|tenir-IMP&2s !
+*FAT:	qu'est ce que tu veux encore ?
+%mor:	pro:rel|que$v:aux|être&PRES&3s pro:dem|ce adv|que pro:subj|tu
+	v:mdl|vouloir&PRES&12s adv|encore ?
+*FAT:	un lapin ?
+%mor:	det:art|un&m&sg n|lapin&m ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	tiens !
+%mor:	v|tenir-IMP&2s !
+*CHI:	tiens !
+%mor:	v|tenir-IMP&2s !
+*FAT:	encore ?
+%mor:	adv|encore ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	hm un autre petit lapin ?
+%mor:	co|hm det:art|un&m&sg pro|autre&sg adj|petit&m n|lapin&m ?
+*CHI:	oui .
+%mor:	co|oui=yes .
+*CHI:	xxx .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	xxx .
+*FAT:	qu'est ce que tu veux encore ?
+%mor:	pro:rel|que$v:aux|être&PRES&3s pro:dem|ce adv|que pro:subj|tu
+	v:mdl|vouloir&PRES&12s adv|encore ?
+*CHI:	xxx .
+*FAT:	le lapin ?
+%mor:	det:art|le&m&sg n|lapin&m ?
+*FAT:	ah (.) je le garde celui-là ?
+%mor:	co|ah pro:subj|je det:art|le&m&sg n|garde pro:dem|celui-là ?
+*CHI:	ɘ@u lapin .
+%mor:	uni|ɘ n|lapin&m .
+*CHI:	ja@o [/] ja@o [/] ja@o .
+%mor:	on|ja .
+%com:	Marie crie .
+*FAT:	coucou .
+%mor:	co|coucou=peekaboo .
+%com:	Marie rit
+*CHI:	papa .
+%mor:	n|papa&m .
+%com:	le père rit
+*CHI:	coucou [/] .
+*CHI:	coucou [/] (.) coucou [/] (.) coucou [/] .
+*CHI:	coucou .
+%mor:	co|coucou=peekaboo .
+*FAT:	coucou .
+%mor:	co|coucou=peekaboo .
+*CHI:	xxx bobo .
+%mor:	n|bobo&m=ouchie .
+*FAT:	tu t'es fait bobo ?
+%mor:	pro:subj|tu pro:subj|tu$v:aux|être&PRES&2s part|faire-PP&m
+	n|bobo&m=ouchie ?
+*CHI:	oui .
+%mor:	co|oui=yes .
+*FAT:	tu as bobo où ?
+%mor:	pro:subj|tu v:aux|avoir&PRES&2s n|bobo&m=ouchie pro:int|où ?
+*CHI:	xxx .
+*FAT:	au genoux ?
+%mor:	prep|à&le n|genou&m-PL ?
+*CHI:	tiens !
+%mor:	v|tenir-IMP&2s !
+*FAT:	d'accord .
+%mor:	adv|d'accord .
+*CHI:	<ta@u Didi> [/] .
+*CHI:	ta@u Didi .
+%mor:	uni|ta n:prop|Didi .
+*FAT:	d'accord .
+%mor:	adv|d'accord .
+*FAT:	je prends Didi (.) voilà .
+%mor:	pro:subj|je v|prendre-PRES&IMP&12s n:prop|Didi adv:place|voilà .
+*CHI:	lalat@c [/] (.) lalat@c .
+%mor:	chi|lalat .
+*FAT:	tu veux ta lolette ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s det:poss|ta&f&sg
+	n|lolette&f=pacifier ?
+*CHI:	ah oui .
+%mor:	co|ah co|oui=yes .
+*FAT:	tu commences à avoir faim Marie ?
+%mor:	pro:subj|tu v|commencer-PRES&SUB&2s prep|à v:aux|avoir&INF n|faim&f
+	n:prop|Marie ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	ouais ?
+%mor:	co|ouais=yes ?
+*FAT:	on va quand même aller manger ton chocolat .
+%mor:	pro:subj|on v:mdl|aller&PRES&3s adv|quand adj|même&m=same
+	v:mdllex|aller&INF v|manger-INF det:poss|ton&m&sg n|chocolat&m .
+*CHI:	xxx .
+%com:	Marie crie .
+*FAT:	xxx .
+%com:	le père imite Marie .
+*CHI:	elle est là la lalat@c papa .
+%mor:	pro:subj|elle v:aux|être&PRES&3s adv:place|là det:art|la&f&sg
+	chi|lalat n|papa&m .
+*CHI:	papapa@u .
+%mor:	uni|papapa .
+*FAT:	hm ?
+%mor:	co|hm ?
+*CHI:	papapa@u sos@u .
+%mor:	uni|papapa uni|sos .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	sos@u [/] .
+*CHI:	sos@u [/] .
+*CHI:	sos@u [/] .
+*CHI:	sos@u .
+%mor:	uni|sos .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	la sos@u voilà .
+%mor:	det:art|la&f&sg uni|sos adv:place|voilà .
+*CHI:	ɘ@u sos@u .
+%mor:	uni|ɘ uni|sos .
+*CHI:	la lalat@c .
+%mor:	det:art|la&f&sg chi|lalat .
+*CHI:	sos@u [/] .
+*CHI:	sos@u .
+%mor:	uni|sos .
+*CHI:	tiens [/] !
+*CHI:	tiens !
+%mor:	v|tenir-IMP&2s !
+*FAT:	merci .
+%mor:	co|merci .
+*FAT:	tu veux que j'aille préparer ton biberon ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s prep|que
+	pro:subj|je$v|ailler-PRES&SUB&13s v|préparer-INF det:poss|ton&m&sg
+	n|biberon&m ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	ouais .
+%mor:	co|ouais=yes .
+*CHI:	ah ma lalat@c .
+%mor:	co|ah det:poss|ma&sg chi|lalat .
+*CHI:	xxx pas lalat@c .
+%mor:	adv:neg|pas chi|lalat .
+*CHI:	<tiens papa> [/] !
+*CHI:	<tiens papa> [/] !
+*CHI:	tiens papa !
+%mor:	v|tenir-IMP&2s n|papa&m !
+*FAT:	j'arrive .
+%mor:	pro:subj|je$v|arriver-IMP&2s .
+*FAT:	tu veux garder la montre de papa ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s v|garder-INF det:art|la&f&sg
+	n|montre&f prep|de n|papa&m ?
+*CHI:	Marie (.) tu veux garder la montre ?
+%mor:	n:prop|Marie pro:subj|tu v:mdl|vouloir&PRES&12s v|garder-INF
+	det:art|la&f&sg n|montre&f ?
+*CHI:	mett(r)e dedans .
+%mor:	v|mettre-INF adv:place|dedans .
+*FAT:	tu veux la mettre dedans ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s pro:obj|la v|mettre-INF
+	adv:place|dedans ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	tu va arriver à ouvrir Marie ?
+%mor:	pro:subj|tu v:mdl|aller&PRES&3s v|arriver-INF prep|à v|ouvrir-INF
+	n:prop|Marie ?
+*FAT:	je crois qu'il est ouvert comme ça Marie .
+%mor:	pro:subj|je v|croire&PRES&12s pro:rel|que$pro:subj|il
+	v:aux|être&PRES&3s part|ouvrir-PP&m adv|comme pro:dem|ça
+	n:prop|Marie .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	ti(c)+ta(c) dedans .
+%mor:	n|+n|tic+n|tac&m adv:place|dedans .
+*FAT:	la ti(c)+ta(c) (.) on va mettre dedans .
+%mor:	det:art|la&f&sg n|+n|tic+n|tac&m pro:subj|on v:mdl|aller&PRES&3s
+	v|mettre-INF adv:place|dedans .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	on ferme ?
+%mor:	pro:subj|on v|fermer-PRES&SUB&13s ?
+*CHI:	Didi [/] Didi dedans .
+%mor:	n:prop|Didi adv:place|dedans .
+*FAT:	ah (.) tu veux aussi mettre Didi dedans ?
+%mor:	co|ah pro:subj|tu v:mdl|vouloir&PRES&12s adv|aussi v|mettre-INF
+	n:prop|Didi adv:place|dedans ?
+*CHI:	oui .
+%mor:	co|oui=yes .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	on ferme ?
+%mor:	pro:subj|on v|fermer-PRES&SUB&13s ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*CHI:	ti(c)+ta(c) ?
+%mor:	n|+n|tic+n|tac&m ?
+*CHI:	ça .
+%mor:	pro:dem|ça .
+*FAT:	la montre elle est dedans .
+%mor:	det:art|la&f&sg n|montre&f pro:subj|elle v:aux|être&PRES&3s
+	adv:place|dedans .
+*CHI:	appuie .
+%mor:	v|appuyer-IMP&2s .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	xxx .
+*CHI:	co(mme) ça .
+%mor:	adv|comme pro:dem|ça .
+*CHI:	et ça appuie .
+%mor:	conj|et pro:dem|ça v|appuyer-PRES&SUB&13s .
+*CHI:	xxx .
+*FAT:	il faut fermer ?
+%mor:	pro:subj|il v:mdl|falloir&PRES&3s v|fermer-INF ?
+*CHI:	ti(c)+ta(c) [x 3] .
+%mor:	n|+n|tic+n|tac&m .
+*CHI:	xxx .
+*CHI:	mett(r)e .
+%mor:	v|mettre-INF .
+*FAT:	tu veux mettre la montre ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s v|mettre-INF det:art|la&f&sg
+	n|montre&f ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	Didi .
+%mor:	n:prop|Didi .
+*CHI:	balle .
+%mor:	n|balle&f .
+*CHI:	la balle .
+%mor:	det:art|la&f&sg n|balle&f .
+*FAT:	tu cherches les balles ?
+%mor:	pro:subj|tu v|chercher-PRES&SUB&2s det:art|les&pl n|balle&f-PL ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	elles sont dans la boîte là-bas .
+%mor:	pro:subj|elles v:aux|être&PRES&3p prep|dans det:art|la&f&sg
+	n|boîte&f adv:place|là-bas .
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*CHI:	là [/] (.) là [/] (.) là [/] (.) là .
+%mor:	adv:place|là .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	lalat@c [/] (.) lalat@c ?
+%mor:	chi|lalat ?
+*FAT:	la lolette ?
+%mor:	det:art|la&f&sg n|lolette&f=pacifier ?
+*FAT:	elle est ici .
+%mor:	pro:subj|elle v:aux|être&PRES&3s adv:place|ici .
+*FAT:	tiens !
+%mor:	v|tenir-IMP&2s !
+*CHI:	hm ?
+%mor:	co|hm ?
+*FAT:	tu veux enlever le [//] la ti(c)+ta(c) ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s v|enlever-INF det:art|la&f&sg
+	n|+n|tic+n|tac&m ?
+*FAT:	tu veux enlever la montre ou tu veux la garder ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s v|enlever-INF det:art|la&f&sg
+	n|montre&f conj|ou pro:subj|tu v:mdl|vouloir&PRES&12s pro:obj|la
+	v|garder-INF ?
+*CHI:	xxx .
+*FAT:	elles vont tomber là .
+%mor:	pro:subj|elles v:mdl|aller&PRES&3p v|tomber-INF adv:place|là .
+*FAT:	hop .
+%mor:	co|hop .
+*FAT:	t(u) as vu où elle est allée la balle ?
+%mor:	pro:subj|tu v:aux|avoir&PRES&2s prep|vu pro:int|où pro:subj|elle
+	v:aux|être&PRES&3s n|allée&f det:art|la&f&sg n|balle&f ?
+*FAT:	elle est ici .
+%mor:	pro:subj|elle v:aux|être&PRES&3s adv:place|ici .
+*CHI:	ici .
+%mor:	adv:place|ici .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	xxx .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	fait dodo Didi ?
+%mor:	part|faire-PP&m co|dodo n:prop|Didi ?
+*FAT:	tu peux mettre Didi avec si tu veux (.) oui .
+%mor:	pro:subj|tu v:mdllex|pouvoir&IMP&2s v|mettre-INF n:prop|Didi
+	prep|avec n|si&m pro:subj|tu v:mdl|vouloir&PRES&12s n|oui&m .
+*CHI:	fait dodo Didi ?
+%mor:	part|faire-PP&m co|dodo n:prop|Didi ?
+*FAT:	attends !
+%mor:	v|attendre-IMP&2s !
+*FAT:	enlève ta lolette quand tu parles .
+%mor:	v|enlever-IMP&2s det:poss|ta&f&sg n|lolette&f=pacifier adv|quand
+	pro:subj|tu v|parler-PRES&SUB&2s .
+*FAT:	on ne comprend pas sinon .
+%mor:	pro:subj|on adv:neg|ne v|comprendre-PRES&3s adv:neg|pas prep|sinon
+	.
+*FAT:	qu'est ce que tu dis ?
+%mor:	pro:int|que$v:aux|être&PRES&3s det:dem|ce&m&sg adv|que pro:subj|tu
+	v|dire-PRES&PASS&12s ?
+*FAT:	qu'est ce que tu dis ?
+%mor:	pro:int|que$v:aux|être&PRES&3s det:dem|ce&m&sg adv|que pro:subj|tu
+	v|dire-PRES&PASS&12s ?
+*CHI:	lalat@c .
+%mor:	chi|lalat .
+*FAT:	oui (.) je sais que tu veux ta lolette (.) oui .
+%mor:	co|oui=yes pro:subj|je v:mdl|savoir&PRES&12s adv|que pro:subj|tu
+	v:mdl|vouloir&PRES&12s det:poss|ta&f&sg n|lolette&f=pacifier
+	co|oui=yes .
+*FAT:	quand tu parles il faut l'enlever (.) sinon on te comprend pas .
+%mor:	adv|quand pro:subj|tu v|parler-PRES&SUB&2s pro:subj|il
+	v:mdl|falloir&PRES&3s pro:obj|le$v|enlever-INF conj|sinon
+	pro:subj|on pro:obj|te v|comprendre-PRES&3s adv:neg|pas .
+*CHI:	hm .
+%mor:	co|hm .
+*CHI:	xxx .
+*CHI:	tiens [/] !
+*CHI:	tiens !
+%mor:	v|tenir-IMP&2s !
+*FAT:	merci .
+%mor:	co|merci .
+*CHI:	co(u)cher .
+%mor:	v|coucher-INF .
+*CHI:	toi [/] toi te coucher .
+%mor:	pro|toi&sg pro:obj|te n|coucher&m .
+*FAT:	il faut que je me couche ?
+%mor:	pro:subj|il v:mdl|falloir&PRES&3s pro:rel|que pro:subj|je
+	pro:obj|me v|coucher-PRES&SUB&13s ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	ouais (.) hop voilà .
+%mor:	co|ouais=yes co|hop adv:place|voilà .
+*CHI:	aussi co(u)cher .
+%mor:	adv|aussi n|coucher&m .
+*FAT:	Marie aussi elle se couche ?
+%mor:	n:prop|Marie adv|aussi pro:subj|elle pro:refl|se n|couche&f ?
+*CHI:	oui .
+%mor:	co|oui=yes .
+*FAT:	oui .
+%mor:	co|oui=yes .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+%com:	Marie rit .
+*FAT:	il te plaît ton nouveau pyjama ?
+%mor:	pro:subj|il pro:obj|te v|plaire-PRES&3s det:poss|ton&m&sg
+	n|nouveau&m n|pyjama&m ?
+*CHI:	oui .
+%mor:	co|oui=yes .
+*FAT:	qu'est ce qu'il y a sur ton petit pyjama là ?
+%mor:	pro:int|que$v:aux|être&PRES&3s pro:dem|ce pro:rel|que$pro:subj|il
+	pro:y|y v:aux|avoir&PRES&3s prep|sur n|ton&m=tone adj|petit&m
+	n|pyjama&m adv:place|là ?
+*CHI:	des nounou(r)s .
+%mor:	prep|de&les n|nounours&m=teddy_bear .
+*FAT:	des nounours et puis il y a quoi d'autre ?
+%mor:	prep|de&les n|nounours&m=teddy_bear conj|et adv|puis pro:subj|il
+	pro:y|y v:aux|avoir&PRES&3s pro:int|quoi prep|de$pro|autre&sg ?
+*CHI:	xxx .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	<mett(r)e dedans> [/] .
+*CHI:	mett(r)e dedans .
+%mor:	v|mettre-INF adv:place|dedans .
+*FAT:	qu'est ce que tu veux mettre dedans ?
+%mor:	pro:int|que$v:aux|être&PRES&3s det:dem|ce&m&sg adv|que pro:subj|tu
+	v:mdl|vouloir&PRES&12s v|mettre-INF adv:place|dedans ?
+*CHI:	lalat@c est dedans ?
+%mor:	chi|lalat v:aux|être&PRES&3s adv:place|dedans ?
+*FAT:	la lolette (.) tu veux la mettre dans la valise ?
+%mor:	det:art|la&f&sg n|lolette&f=pacifier pro:subj|tu
+	v:mdl|vouloir&PRES&12s pro:obj|la v|mettre-INF prep|dans
+	det:art|la&f&sg n|valise&f ?
+*CHI:	ah (.) Didi .
+%mor:	co|ah n:prop|Didi .
+*FAT:	ton guignol aussi .
+%mor:	det:poss|ton&m&sg n|guignol&m adv|aussi .
+*CHI:	ti(c)+ta(c) .
+%mor:	n|+n|tic+n|tac&m .
+*FAT:	la montre aussi .
+%mor:	det:art|la&f&sg n|montre&f adv|aussi .
+*CHI:	oh oui .
+%mor:	co|oh co|oui=yes .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	et puis celle-ci aussi de lolette ?
+%mor:	conj|et adv|puis pro:dem|celle-ci adv|aussi prep|de
+	n|lolette&f=pacifier ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	on ferme ?
+%mor:	pro:subj|on v|fermer-PRES&SUB&13s ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	là .
+%mor:	adv:place|là .
+*CHI:	là (.) taton [: crayon] .
+%mor:	adv:place|là n|crayon&m .
+*FAT:	hein ?
+%mor:	co|hein ?
+*CHI:	les taton [: crayon] .
+%mor:	det:art|les&pl n|crayon&m .
+*CHI:	ɘ@u &co co(u)cher .
+%mor:	uni|ɘ n|coucher&m .
+*FAT:	couché maintenant .
+%mor:	part|coucher-PP&m adv|maintenant .
+*CHI:	co(u)ché .
+%mor:	part|coucher-PP&m .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	toi aussi co(u)ché .
+%mor:	pro|toi&sg adv|aussi part|coucher-PP&m .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	co(u)ché .
+%mor:	part|coucher-PP&m .
+*FAT:	oui (.) on est tous les deux couchés alors .
+%mor:	co|oui=yes pro:subj|on v:aux|être&PRES&3s pro|tous&m&pl
+	det:art|les&pl num|deux part|coucher-PP&m&pl adv|alors .
+%com:	Marie rit .
+*MOT:	Pascal ?
+%mor:	n:prop|Pascal ?
+*FAT:	oui .
+%mor:	co|oui=yes .
+*MOT:	c'est quand ça ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s adv|quand pro:dem|ça ?
+*CHI:	<co(u)cher maman> [/] .
+*CHI:	co(u)cher maman .
+%mor:	v|coucher-INF n|maman&f .
+*MOT:	c'est Pâques ça ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s n:prop|Pâques pro:dem|ça ?
+*FAT:	oui (.) je pense .
+%mor:	co|oui=yes pro:subj|je v|penser-PRES&SUB&13s .
+*MOT:	doucement [/] (.) doucement [/] (.) doucement .
+%mor:	adv|doucement .
+*FAT:	regarde (.) regarde Marie !
+%mor:	v|regarder-IMP&2s v|regarder-IMP&2s n:prop|Marie !
+*FAT:	c'est qui là ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:int|qui adv:place|là ?
+*CHI:	xxx .
+*MOT:	et puis là (.) c'est qui ?
+%mor:	conj|et adv|puis adv:place|là pro:dem|ce$v:exist|être&PRES&3s
+	pro:rel|qui ?
+*CHI:	kokodil@u .
+%mor:	uni|kokodil .
+%com:	la mère rit .
+*CHI:	kokodil@u .
+%mor:	uni|kokodil .
+%com:	la mère rit .
+*CHI:	kokodil@u .
+%mor:	uni|kokodil .
+*FAT:	c'est pas un crocodile .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s adv:neg|pas det:art|un&m&sg
+	n|crocodile&m .
+*FAT:	c'est ta cousine Odile .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:poss|ta&f&sg n|cousin&f
+	n:prop|Odile .
+*CHI:	kokodil@u .
+%mor:	uni|kokodil .
+*MOT:	presque Marie .
+%mor:	adv|presque n:prop|Marie .
+*MOT:	c'est +/.
+%mor:	pro:dem|ce$v:aux|être&PRES&3s +/.
+*CHI:	xxx .
+*MOT:	Odile .
+%mor:	n:prop|Odile .
+*MOT:	elle s'appelle Odile .
+%mor:	pro:subj|elle pro:refl|se$v|appeler-IMP&2s n:prop|Odile .
+*MOT:	Odile c'est crocodile .
+%mor:	n:prop|Odile pro:dem|ce$v:aux|être&PRES&3s n|crocodile&m .
+*FAT:	c'est mignon .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s n|mignon&m .
+*MOT:	faudra lui dire ça .
+%mor:	v:mdl|falloir&FUT&3s part|luire&PP&m n|dire&m pro:dem|ça .
+*MOT:	c'est Odile .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s n:prop|Odile .
+*MOT:	et regarde là !
+%mor:	conj|et v|regarder-IMP&2s adv:place|là !
+*MOT:	c'est qui là ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:int|qui adv:place|là ?
+*MOT:	c'est qui là ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:int|qui adv:place|là ?
+*CHI:	papa .
+%mor:	n|papa&m .
+*MOT:	et puis là ?
+%mor:	conj|et adv|puis adv:place|là ?
+*CHI:	Marie .
+%mor:	n:prop|Marie .
+*MOT:	et puis là ?
+%mor:	conj|et adv|puis adv:place|là ?
+*CHI:	maman .
+%mor:	n|maman&f .
+*MOT:	ouais .
+%mor:	co|ouais=yes .
+*MOT:	et là ?
+%mor:	conj|et adv:place|là ?
+*CHI:	kodil@c .
+%mor:	chi|kodil .
+*MOT:	Christophe .
+%mor:	n:prop|Christophe .
+*MOT:	et puis derrière Christophe (.) c'est qui ?
+%mor:	conj|et adv|puis n|derrière&m n:prop|Christophe
+	pro:dem|ce$v:aux|être&PRES&3s pro:int|qui ?
+*CHI:	c'est kokodil@c .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s chi|kokodil .
+*MOT:	c'est grand-maman .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s grand#n|maman&f .
+*CHI:	ça .
+%mor:	pro:dem|ça .
+*MOT:	grand-maman et grand-papa .
+%mor:	grand#n|maman&f conj|et grand#n|papa&m .
+*MOT:	ça c'est Christophe .
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s n:prop|Christophe .
+*CHI:	ɘ@u ça ?
+%mor:	uni|ɘ pro:dem|ça ?
+*MOT:	et ça c'est Odile .
+%mor:	conj|et pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s n:prop|Odile .
+*CHI:	O(d)ile .
+%mor:	n:prop|Odile .
+*CHI:	et ça ?
+%mor:	conj|et pro:dem|ça ?
+*MOT:	Jean_Denis .
+%mor:	n:prop|Jean_Denis .
+*CHI:	a@u ça ?
+%mor:	uni|a pro:dem|ça ?
+*MOT:	Muriel (.) Nicolas (.) Odile .
+%mor:	n:prop|Muriel n:prop|Nicolas n:prop|Odile .
+*CHI:	et ça ?
+%mor:	conj|et pro:dem|ça ?
+*MOT:	et là ?
+%mor:	conj|et adv:place|là ?
+*MOT:	regarde !
+%mor:	v|regarder-IMP&2s !
+*MOT:	on voit mieux là .
+%mor:	pro:subj|on v|voir&PRES&3s n|mieux&m adv:place|là .
+*CHI:	c'est Didi .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s n:prop|Didi .
+*MOT:	oui c'est Didi .
+%mor:	co|oui=yes pro:dem|ce$v:exist|être&PRES&3s n:prop|Didi .
+*MOT:	ah oui (.) c'est Didi .
+%mor:	co|ah co|oui=yes pro:dem|ce$v:exist|être&PRES&3s n:prop|Didi .
+*MOT:	et à côté là ?
+%mor:	conj|et prep|à n|côté&m adv:place|là ?
+*CHI:	kokodil@c .
+%mor:	chi|kokodil .
+*FAT:	Odile elle s'appelle .
+%mor:	n:prop|Odile pro:subj|elle pro:refl|se$v|appeler-PRES&SUB&13s .
+*MOT:	Odile [/] (.) Odile .
+%mor:	n:prop|Odile .
+*MOT:	et là ?
+%mor:	conj|et adv:place|là ?
+*CHI:	Didi .
+%mor:	n:prop|Didi .
+*MOT:	et à côté ?
+%mor:	conj|et prep|à n|côté&m ?
+*CHI:	toi .
+%mor:	pro|toi&sg .
+*MOT:	moi ?
+%mor:	pro|moi&sg ?
+*FAT:	oui .
+%mor:	co|oui=yes .
+*MOT:	et là ?
+%mor:	conj|et adv:place|là ?
+*CHI:	maman .
+%mor:	n|maman&f .
+*MOT:	grand-papa .
+%mor:	grand#n|papa&m .
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*MOT:	grand-papa .
+%mor:	grand#n|papa&m .
+*MOT:	regarde !
+%mor:	v|regarder-IMP&2s !
+*MOT:	grand-papa (.) grand-maman (.) Nicolas (.) Christophe .
+%mor:	grand#n|papa&m grand#n|maman&f n:prop|Nicolas n:prop|Christophe .
+*CHI:	ah .
+%mor:	co|ah .
+*CHI:	c'est Didi ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s n:prop|Didi ?
+*MOT:	oui (.) c'est Didi oui .
+%mor:	co|oui=yes pro:dem|ce$v:exist|être&PRES&3s n:prop|Didi co|oui=yes .
+*CHI:	aussi .
+%mor:	adv|aussi .
+*MOT:	attends !
+%mor:	v|attendre-IMP&2s !
+*CHI:	xxx .
+*MOT:	l'autre ?
+%mor:	det:art|le$pro|autre&sg ?
+*MOT:	attends !
+%mor:	v|attendre-IMP&2s !
+*MOT:	xxx va mettre dans l'album Marie .
+%mor:	v:mdl|aller&PRES&3s v|mettre-INF prep|dans det:art|le$n|album&m
+	n:prop|Marie .
+*CHI:	hein [/] ?
+*CHI:	hein ?
+%mor:	co|hein ?
+*MOT:	il faudrait que je mette dans le sien celui-là ?
+%mor:	pro:subj|il v:mdl|falloir&COND&3s pro:rel|que pro:subj|je
+	v|mettre-PRES&SUB&13s prep|dans det:art|le&m&sg n|sien&m
+	pro:dem|celui-là ?
+*MOT:	là ?
+%mor:	adv:place|là ?
+*FAT:	www .
+%com:	le père parle avec la mère .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*MOT:	on va mettre dans ton album Marie .
+%mor:	pro:subj|on v:mdl|aller&PRES&3s v|mettre-INF prep|dans
+	det:poss|ton&m&sg n|album&m n:prop|Marie .
+*MOT:	on mettra dans ton album .
+%mor:	pro:subj|on v|mettre-FUT&3s prep|dans det:poss|ton&m&sg n|album&m .
+*CHI:	oh .
+%mor:	co|oh .
+*MOT:	on mettra celle-là chez nous .
+%mor:	pro:subj|on v|mettre-FUT&3s pro:dem|celle-là prep|chez
+	pro:subj|nous .
+*MOT:	www .
+%com:	la mère parle avec le père .
+*CHI:	est kota@c ?
+%mor:	v:aux|être&PRES&3s chi|kota ?
+*MOT:	kota@c ?
+%mor:	chi|kota ?
+*CHI:	c'est ça ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:dem|ça ?
+*MOT:	c'est Nicolas oui (.) oui .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s n:prop|Nicolas co|oui=yes co|oui=yes
+	.
+*CHI:	ça ?
+%mor:	pro:dem|ça ?
+*MOT:	Muriel .
+%mor:	n:prop|Muriel .
+*MOT:	tante Muriel .
+%mor:	n|tante&f n:prop|Muriel .
+*MOT:	c'est la soeur de Pascal .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s det:art|la&f&sg n|soeur&f prep|de
+	n:prop|Pascal .
+%com:	Marie prend les photos .
+*MOT:	non (.) non Marie .
+%mor:	co|non=no co|non=no n:prop|Marie .
+*MOT:	tu gardes pas ça .
+%mor:	pro:subj|tu v|garder-PRES&SUB&2s adv:neg|pas pro:dem|ça .
+*MOT:	maman elle va le mettre dans l'album .
+%mor:	n|maman&f pro:subj|elle v:mdl|aller&PRES&3s pro:obj|le v|mettre-INF
+	prep|dans det:art|le$n|album&m .
+*MOT:	je mettrai dans ton album .
+%mor:	pro:subj|je v|mettre-FUT&1s prep|dans det:poss|ton&m&sg n|album&m .
+*MOT:	d'accord ?
+%mor:	adv|d'accord ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*MOT:	coller dans l'album de Marie .
+%mor:	v|coller-INF prep|dans det:art|le$n|album&m prep|de n:prop|Marie .
+*CHI:	xxx .
+*MOT:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	co(u)cher maman .
+%mor:	v|coucher-INF n|maman&f .
+*MOT:	non .
+%mor:	co|non=no .
+*MOT:	au revoir Marie .
+%mor:	prep|à&le re#v|voir&INF n:prop|Marie .
+*CHI:	non .
+%mor:	co|non=no .
+*FAT:	non quoi (.) ma puce ?
+%mor:	co|non=no pro:int|quoi det:poss|ma&sg n|puce&f ?
+*CHI:	co(u)cher [x 3] .
+%mor:	v|coucher-INF .
+*FAT:	qui c'est qui doit être couchée ?
+%mor:	pro:int|qui pro:dem|ce$v:exist|être&PRES&3s pro:rel|qui
+	v:mdl|devoir&PRES&3s v:aux|être&INF part|coucher-PP&f ?
+*CHI:	xxx maman .
+%mor:	n|maman&f .
+*FAT:	mais maman elle est partie .
+%mor:	adv|mais n|maman&f pro:subj|elle v:aux|être&PRES&3s
+	part|partir-PP&f .
+*FAT:	elle est à la cuisine .
+%mor:	pro:subj|elle v:aux|être&PRES&3s prep|à det:art|la&f&sg n|cuisine&f
+	.
+*FAT:	je sais pas où .
+%mor:	pro:subj|je v:mdl|savoir&PRES&12s adv:neg|pas pro:int|où .
+*CHI:	xxx Didi xxx dadan [: dedans] .
+%mor:	n:prop|Didi adv:place|dedans .
+*CHI:	ti@u dadan [: dedans] .
+%mor:	uni|ti adv:place|dedans .
+*FAT:	oui (.) <il est> [/] il est dedans ton guignol .
+%mor:	co|oui=yes pro:subj|il v:aux|être&PRES&3s adv:place|dedans
+	det:poss|ton&m&sg n|guignol&m .
+*FAT:	tu veux ouvrir ta valise pour reprendre le guignol ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s v|ouvrir-INF det:poss|ta&f&sg
+	n|valise&f prep|pour re#v|prendre-INF det:art|le&m&sg n|guignol&m ?
+*CHI:	oui .
+%mor:	co|oui=yes .
+*FAT:	oui .
+%mor:	co|oui=yes .
+*CHI:	non [/] non .
+%mor:	co|non=no .
+*CHI:	co(u)ché .
+%mor:	part|coucher-PP&m .
+*FAT:	ah (.) je reste couché moi .
+%mor:	co|ah pro:subj|je v|rester-PRES&SUB&13s part|coucher-PP&m
+	pro|moi&sg .
+*FAT:	d'accord .
+%mor:	adv|d'accord .
+*CHI:	<di@u dadan [: dedans]> [x 2] .
+%mor:	uni|di adv:place|dedans .
+*CHI:	co(u)ché .
+%mor:	part|coucher-PP&m .
+*CHI:	<i@u dadan [: dedans]> [x 3] .
+%mor:	uni|i adv:place|dedans .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	est dedans Didi .
+%mor:	v:aux|être&PRES&3s adv:place|dedans n:prop|Didi .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	il est dedans Didi (.) oui .
+%mor:	pro:subj|il v:aux|être&PRES&3s adv:place|dedans n:prop|Didi n|oui&m
+	.
+*CHI:	<se aussi co(u)ché> [x 3] .
+%mor:	pro:refl|se adv|aussi part|coucher-PP&m .
+*FAT:	se aussi couché ?
+%mor:	pro:refl|se adv|aussi part|coucher-PP&m ?
+*CHI:	oui .
+%mor:	co|oui=yes .
+*CHI:	ah .
+%mor:	co|ah .
+%com:	Marie rit .
+*CHI:	xxx .
+*FAT:	tu veux qu'on ouvre le tiroir là ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s pro:rel|que$pro:subj|on
+	v|ouvrir-PRES&SUB&13s det:art|le&m&sg n|tiroir&m adv:place|là ?
+*FAT:	alors +/.
+%mor:	adv|alors +/.
+*CHI:	xxx .
+*CHI:	cassé .
+%mor:	part|casser-PP&m .
+*FAT:	ah (.) ça c'est encore un bout de la chaise qui était cassée ça .
+%mor:	co|ah pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s adv|encore
+	det:art|un&m&sg n|bout&m prep|de det:art|la&f&sg n|chaise&f
+	pro:int|qui v:aux|être&IMPF&3s part|casser-PP&f pro:dem|ça .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	papa xxx .
+%mor:	n|papa&m .
+*CHI:	papa xxx .
+%mor:	n|papa&m .
+*FAT:	bonjour Valérie .
+%mor:	co|bonjour n:prop|Valérie .
+*CHI:	co(u)ché [/] .
+*CHI:	co(u)ché .
+%mor:	part|coucher-PP&m .
+*FAT:	d'accord (.) je reste couché .
+%mor:	adv|d'accord pro:subj|je v|rester-PRES&SUB&13s part|coucher-PP&m .
+*CHI:	co(u)ché .
+%mor:	part|coucher-PP&m .
+*FAT:	d'accord .
+%mor:	adv|d'accord .
+*CHI:	ɘ@u co(u)ché .
+%mor:	uni|ɘ part|coucher-PP&m .
+*CHI:	co(u)ché [/] .
+*CHI:	co(u)ché .
+%mor:	part|coucher-PP&m .
+*CHI:	<(i)l est co(u)ché> [/] .
+*CHI:	(i)l est co(u)ché ?
+%mor:	pro:subj|il v:aux|être&PRES&3s part|coucher-PP&m ?
+*FAT:	on fait quoi une fois qu'on est couché Marie ?
+%mor:	pro:subj|on part|faire-PP&m pro:int|quoi det:art|une&f&sg n|fois&f
+	pro:rel|que$pro:subj|on v:aux|être&PRES&3s part|coucher-PP&m
+	n:prop|Marie ?
+*CHI:	quoi ?
+%mor:	pro:int|quoi ?
+*FAT:	qu'est ce qu'on fait ?
+%mor:	pro:int|que$v:aux|être&PRES&3s pro:dem|ce pro:rel|que$pro:subj|on
+	part|faire-PP&m ?
+*CHI:	<est co(u)ché> [/] .
+*CHI:	<est co(u)ché> [/] .
+*CHI:	est co(u)ché .
+%mor:	v:aux|être&PRES&3s part|coucher-PP&m .
+*CHI:	ah .
+%mor:	co|ah .
+*CHI:	est couché .
+%mor:	v:aux|être&PRES&3s part|coucher-PP&m .
+*FAT:	ta poupée elle est couchée (.) oui .
+%mor:	det:poss|ta&f&sg n|poupée&f pro:subj|elle v:aux|être&PRES&3s
+	part|coucher-PP&f n|oui&m .
+*CHI:	co(u)chée [/] ?
+*CHI:	co(u)chée .
+%mor:	part|coucher-PP&f .
+*CHI:	ɘ@u co(u)ché .
+%mor:	uni|ɘ part|coucher-PP&m .
+*CHI:	o@u co(u)ché .
+%mor:	uni|o part|coucher-PP&m .
+*CHI:	ɘ@u co(u)ché .
+%mor:	uni|ɘ part|coucher-PP&m .
+*CHI:	co(u)ché .
+%mor:	part|coucher-PP&m .
+*CHI:	elle est couchée .
+%mor:	pro:subj|elle v:aux|être&PRES&3s part|coucher-PP&f .
+*CHI:	couchée .
+%mor:	part|coucher-PP&f .
+*FAT:	hm hm .
+%mor:	co|hm co|hm .
+*CHI:	couchée ?
+%mor:	part|coucher-PP&f ?
+*FAT:	on est tous couchés .
+%mor:	pro:subj|on v:aux|être&PRES&3s pro|tous&m&pl part|coucher-PP&m&pl .
+*CHI:	couchés .
+%mor:	part|coucher-PP&m&pl .
+*FAT:	on est tous couchés .
+%mor:	pro:subj|on v:aux|être&PRES&3s pro|tous&m&pl part|coucher-PP&m&pl .
+*CHI:	sam@u !
+%mor:	uni|sam !
+*FAT:	hm ?
+%mor:	co|hm ?
+*CHI:	sam@u !
+%mor:	uni|sam !
+*FAT:	faut fermer les yeux aussi .
+%mor:	v:mdl|falloir&PRES&3s v|fermer-INF det:art|les&pl n|yeux&m
+	adv|aussi .
+*FAT:	ah (.) d'accord .
+%mor:	co|ah adv|d'accord .
+*MOT:	ça c'est à la naissance de Nicolas .
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s prep|à det:art|la&f&sg
+	n|naissance&f prep|de n:prop|Nicolas .
+*MOT:	je sais pas lesquelles mettre .
+%mor:	pro:subj|je v:mdl|savoir&PRES&12s adv:neg|pas
+	pro:int|lesquelles&f&pl v|mettre-INF .
+*CHI:	xxx .
+*MOT:	oui (.) assieds toi Marie !
+%mor:	co|oui=yes v|asseoir&PRES&12s pro|toi&sg n:prop|Marie !
+*CHI:	assis [/] .
+*CHI:	assis .
+%mor:	v|asseoir&PASS&12s .
+*MOT:	voilà .
+%mor:	adv:place|voilà .
+*MOT:	mais là malheureusement elle est pas là donc .
+%mor:	adv|mais adv:place|là adv|malheureusement pro:subj|elle
+	v:aux|être&PRES&3s adv:neg|pas adv:place|là adv|donc .
+*FAT:	qui ?
+%mor:	pro:int|qui ?
+*FAT:	Nicolas ?
+%mor:	n:prop|Nicolas ?
+*MOT:	oui .
+%mor:	co|oui=yes .
+*MOT:	tu reconnais Marie ?
+%mor:	pro:subj|tu re#v|connaître-PRES&IMP&12s n:prop|Marie ?
+*CHI:	a@u ça ?
+%mor:	uni|a pro:dem|ça ?
+*MOT:	ça c'est grand-maman .
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s grand#n|maman&f .
+*CHI:	o@u ça ?
+%mor:	uni|o pro:dem|ça ?
+*MOT:	grand-papa .
+%mor:	grand#n|papa&m .
+*CHI:	o@u ça ?
+%mor:	uni|o pro:dem|ça ?
+*MOT:	quoi ça ?
+%mor:	pro:rel|quoi pro:dem|ça ?
+*CHI:	o@u ça ?
+%mor:	uni|o pro:dem|ça ?
+*MOT:	c'est maman .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s n|maman&f .
+*MOT:	et Marie elle est où ?
+%mor:	conj|et n:prop|Marie pro:subj|elle v:aux|être&PRES&3s pro:int|où ?
+*CHI:	ɘ@u là .
+%mor:	uni|ɘ adv:place|là .
+*MOT:	elle est où Marie sur la photo ?
+%mor:	pro:subj|elle v:aux|être&PRES&3s pro:int|où n:prop|Marie prep|sur
+	det:art|la&f&sg n|photo&f ?
+*FAT:	elle est là .
+%mor:	pro:subj|elle v:aux|être&PRES&3s adv:place|là .
+*CHI:	là .
+%mor:	adv:place|là .
+*MOT:	elle est là ?
+%mor:	pro:subj|elle v:aux|être&PRES&3s adv:place|là ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*MOT:	oh oui (.) elle est là Marie .
+%mor:	co|oh co|oui=yes pro:subj|elle v:aux|être&PRES&3s adv:place|là
+	n:prop|Marie .
+*MOT:	elle a une tronche (.) t(u) as vu ?
+%mor:	pro:subj|elle v:aux|avoir&PRES&3s det:art|une&f&sg n|tronche&f
+	pro:subj|tu v:aux|avoir&PRES&2s part|voir&PP&m ?
+*FAT:	non .
+%mor:	co|non=no .
+*MOT:	elle a pas de cheveux .
+%mor:	pro:subj|elle v:aux|avoir&PRES&3s adv:neg|pas prep|de n|cheveu&m-PL
+	.
+*MOT:	attends !
+%mor:	v|attendre-IMP&2s !
+*MOT:	on va montrer à papa .
+%mor:	pro:subj|on v:mdl|aller&PRES&3s v|montrer-INF prep|à n|papa&m .
+*MOT:	regarde !
+%mor:	v|regarder-IMP&2s !
+*FAT:	c'était quand ?
+%mor:	pro:dem|ce$v:aux|être&IMPF&3s adv|quand ?
+*FAT:	il y a plus d'une année ?
+%mor:	pro:subj|il pro:y|y v:aux|avoir&PRES&3s qn|plus
+	prep|de$pro|une&f&sg n|année&f ?
+*MOT:	octobre nonante quatre .
+%mor:	n|octobre&m num|nonante n|quatre&m .
+*CHI:	ah .
+%mor:	co|ah .
+*MOT:	www .
+%com:	la mère et le père parlent ensemble .
+*MOT:	tu reconnais là qui c'est Marie ?
+%mor:	pro:subj|tu re#v|connaître-PRES&IMP&12s adv:place|là pro:int|qui
+	pro:dem|ce$v:exist|être&PRES&3s n:prop|Marie ?
+*CHI:	ça ?
+%mor:	pro:dem|ça ?
+*MOT:	c'est qui là ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:int|qui adv:place|là ?
+*CHI:	kokodil@c .
+%mor:	chi|kokodil .
+*MOT:	et là c'est qui ?
+%mor:	conj|et adv:place|là pro:dem|ce$v:exist|être&PRES&3s pro:rel|qui ?
+*MOT:	c'est qui là ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:int|qui adv:place|là ?
+*CHI:	kokodil@c .
+%mor:	chi|kokodil .
+*MOT:	Christophe .
+%mor:	n:prop|Christophe .
+*MOT:	et puis +//.
+%mor:	conj|et adv|puis +//.
+*MOT:	attends Marie !
+%mor:	v|attendre-IMP&2s n:prop|Marie !
+*MOT:	attends (.) attends (.) attends !
+%mor:	v|attendre-IMP&2s v|attendre-IMP&2s v|attendre-IMP&2s !
+*MOT:	non (.) non (.) non (.) doucement .
+%mor:	co|non=no co|non=no co|non=no adv|doucement .
+*MOT:	attends !
+%mor:	v|attendre-IMP&2s !
+*MOT:	mais regarde !
+%mor:	adv|mais v|regarder-PRES&SUB&13s !
+*MOT:	regarde déjà celle-là !
+%mor:	v|regarder-PRES&SUB&13s adv|déjà pro:dem|celle-là !
+*MOT:	tu l'as dans la main .
+%mor:	pro:subj|tu pro:subj|il$v:aux|avoir&PRES&2s prep|dans
+	det:art|la&f&sg n|main&f .
+*MOT:	non (.) non .
+%mor:	co|non=no co|non=no .
+*MOT:	reste ici avec maman parce que maman va partir avec les photos après !
+%mor:	n|reste&m adv:place|ici prep|avec n|maman&f adv|parce prep|que
+	n|maman&f v:mdl|aller&PRES&3s v|partir-INF prep|avec det:art|les&pl
+	n|photo&f-PL adv|après !
+*MOT:	voilà .
+%mor:	adv:place|voilà .
+*MOT:	maintenant montre à papa !
+%mor:	adv|maintenant n|montre&f prep|à n|papa&m !
+*CHI:	xxx couché .
+%mor:	part|coucher-PP&m .
+*CHI:	t(u) es couché ?
+%mor:	pro:subj|tu v:aux|être&PRES&2s part|coucher-PP&m ?
+*MOT:	www .
+%com:	la mère et le père parlent ensemble .
+*MOT:	non non Marie .
+%mor:	co|non=no co|non=no n:prop|Marie .
+*MOT:	ça c'est dans l'album .
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s prep|dans
+	det:art|le$n|album&m .
+*CHI:	c'est qui ?
+%mor:	pro:dem|ce$v:aux|être&PRES&3s pro:rel|qui ?
+*MOT:	celle-là je la mets où ?
+%mor:	pro:dem|celle-là pro:subj|je pro:obj|la v|mettre-PRES&12s
+	pro:rel|où ?
+*FAT:	mets la chez elle !
+%mor:	v|mettre-IMP&2s det:art|la&f&sg prep|chez pro:subj|elle !
+*MOT:	et puis les autres ?
+%mor:	conj|et adv|puis det:art|les&pl pro|autres&pl ?
+*FAT:	chez nous .
+%mor:	prep|chez pro:subj|nous .
+*MOT:	les deux ?
+%mor:	det:art|les&pl num|deux ?
+*CHI:	<te@u deux> [/] ?
+*CHI:	te@u deux ?
+%mor:	uni|te n|deux&m ?
+*MOT:	non Marie (.) maman elle va mettre dans l'album .
+%mor:	co|non=no n:prop|Marie n|maman&f pro:subj|elle v:mdl|aller&PRES&3s
+	v|mettre-INF prep|dans det:art|le$n|album&m .
+*CHI:	a@u ça ?
+%mor:	uni|a pro:dem|ça ?
+*MOT:	elle va mettre dans l'album .
+%mor:	pro:subj|elle v:mdl|aller&PRES&3s v|mettre-INF prep|dans
+	det:art|le$n|album&m .
+*CHI:	ɘ@u ça ?
+%mor:	uni|ɘ pro:dem|ça ?
+*MOT:	oui (.) ça aussi elle va mettre dans l'album .
+%mor:	co|oui=yes pro:dem|ça adv|aussi pro:subj|elle v:mdl|aller&PRES&3s
+	v|mettre-INF prep|dans det:art|le$n|album&m .
+*MOT:	d'accord ?
+%mor:	adv|d'accord ?
+*MOT:	tu pourras regarder dans l'album .
+%mor:	pro:subj|tu v:mdl|pouvoir&FUT&2s v|regarder-INF prep|dans
+	det:art|le$n|album&m .
+*CHI:	tiens !
+%mor:	v|tenir-IMP&2s !
+*FAT:	merci .
+%mor:	co|merci .
+*CHI:	tiens !
+%mor:	v|tenir-IMP&2s !
+*FAT:	merci .
+%mor:	co|merci .
+*CHI:	tiens !
+%mor:	v|tenir-IMP&2s !
+*FAT:	merci .
+%mor:	co|merci .
+*MOT:	celle-là j(e) te la laisse si tu veux .
+%mor:	pro:dem|celle-là pro:subj|je pro:obj|te det:art|la&f&sg n|laisse&f
+	adv|si pro:subj|tu v:mdl|vouloir&PRES&12s .
+*CHI:	xxx .
+*MOT:	mais c'est fou les cheveux hein ?
+%mor:	adv|mais pro:dem|ce$v:aux|être&PRES&3s n|fou&m det:art|les&pl
+	n|cheveu&m-PL co|hein ?
+*FAT:	hm hm .
+%mor:	co|hm co|hm .
+*CHI:	xxx .
+%com:	Marie babille .
+*FAT:	ma puce xxx dans le bain (.) hein ?
+%mor:	det:poss|ma&sg n|puce&f prep|dans det:art|le&m&sg n|bain&m co|hein
+	?
+*CHI:	osi@u ?
+%mor:	uni|osi ?
+*FAT:	toi aussi ?
+%mor:	pro|toi&sg adv|aussi ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	ça veut dire quoi osi@u ?
+%mor:	pro:dem|ça v:mdl|vouloir&PRES&3s v|dire-INF pro:int|quoi uni|osi ?
+*CHI:	osi@u [/] .
+*CHI:	osi@u [/] osi@u [/] osi@u [/] osi@u .
+%mor:	uni|osi .
+*FAT:	quoi (.) tes p(e)luches elles viennent aussi dans le bain ?
+%mor:	pro:int|quoi det:poss|tes&pl n|peluche&f-PL pro:subj|elles
+	v|venir-PRES&SUB&3p adv|aussi prep|dans det:art|le&m&sg n|bain&m ?
+*CHI:	<osi@u si@u> [/] osi@u si@u osi@u .
+%mor:	uni|osi uni|si uni|osi .
+*FAT:	qui c'est qui va aussi prendre un bain ?
+%mor:	pro:int|qui pro:dem|ce$v:exist|être&PRES&3s pro:rel|qui
+	v:mdl|aller&PRES&3s adv|aussi v|prendre-INF det:art|un&m&sg n|bain&m
+	?
+*CHI:	ma +//.
+%mor:	det:poss|ma&sg +//.
+*CHI:	papa .
+%mor:	n|papa&m .
+*FAT:	oui .
+%mor:	co|oui=yes .
+*FAT:	tu peux aller éteindre .
+%mor:	pro:subj|tu v:mdllex|pouvoir&IMP&2s v:mdl|aller&INF v|éteindre-INF
+	.
+%com:	Marie s'amuse avec l'interrupteur de la lampe .
+*FAT:	ça évidemment c'est pratique ce petit escabeau pour atteindre les prises électriques (.) hein ?
+%mor:	pro:dem|ça adv|évidemment pro:dem|ce$v:aux|être&PRES&3s
+	n|pratique&f pro:dem|ce adj|petit&m n|escabeau&m prep|pour
+	v|atteindre-INF det:art|les&pl n|prise&f-PL adj|électrique-PL
+	co|hein ?
+*FAT:	les interrupteurs .
+%mor:	det:art|les&pl n|interrupteur&m-PL .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	osi@u .
+%mor:	uni|osi .
+*MOT:	www .
+%com:	la mère parle avec le père .
+*CHI:	xxx .
+%com:	Marie babille .
+*FAT:	tu veux coiffer ta poupée ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s v|coiffer-INF det:poss|ta&f&sg
+	n|poupée&f ?
+*FAT:	brosser les cheveux ?
+%mor:	v|brosser-INF det:art|les&pl n|cheveu&m-PL ?
+*FAT:	oui ?
+%mor:	co|oui=yes ?
+*CHI:	est couché .
+%mor:	v:aux|être&PRES&3s part|coucher-PP&m .
+*CHI:	xxx .
+%com:	Marie babille .
+*CHI:	chut dodo .
+%mor:	co|chut n|dodo&m=sleep .
+*CHI:	chut [/] chut .
+%mor:	co|chut .
+*CHI:	xxx .
+*MOT:	www .
+%com:	la mère parle avec le père .
+*CHI:	la boule .
+%mor:	det:art|la&f&sg n|boule&f .
+*MOT:	non [/] non [/] non .
+%mor:	co|non=no .
+*MOT:	ouais enfin bon (.) si tu veux .
+%mor:	co|ouais=yes adv|enfin adj|bon&m n|si&m pro:subj|tu
+	v:mdl|vouloir&PRES&12s .
+*MOT:	finalement il y a des canards .
+%mor:	adv|finalement pro:subj|il pro:y|y v:aux|avoir&PRES&3s prep|de&les
+	n|canard&m-PL=duck .
+%com:	Marie joue .
+*FAT:	xxx .
+*FAT:	attends !
+%mor:	v|attendre-IMP&2s !
+*FAT:	je vais te le mettre par terre .
+%mor:	pro:subj|je v:mdl|aller&PRES&1s pro:obj|te pro:obj|le v|mettre-INF
+	prep|par n|terre&f .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	c'est chat là-bas .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s n|chat&m adv:place|là-bas .
+*FAT:	ça c'est un chat oui .
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg n|chat&m
+	co|oui=yes .
+*FAT:	et ici ?
+%mor:	conj|et adv:place|ici ?
+*FAT:	là ?
+%mor:	adv:place|là ?
+*CHI:	la boule .
+%mor:	det:art|la&f&sg n|boule&f .
+*CHI:	ɘ@u boule .
+%mor:	uni|ɘ n|boule&f .
+*FAT:	oui .
+%mor:	co|oui=yes .
+*CHI:	ɘ@u (pe)tit cana(r)d là-bas .
+%mor:	uni|ɘ adj|petit&m n|canard&m=duck adv:place|là-bas .
+*FAT:	les petits canards .
+%mor:	det:art|les&pl adj|petit&m-PL n|canard&m-PL=duck .
+*CHI:	oh ça .
+%mor:	co|oh pro:dem|ça .
+*FAT:	ça aussi c'est un petit canard (.) ouais .
+%mor:	pro:dem|ça adv|aussi pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg
+	adj|petit&m n|canard&m=duck co|ouais=yes .
+*MOT:	www .
+%com:	la mère parle avec le père .
+*CHI:	kukuku@c là-bas .
+%mor:	chi|kukuku adv:place|là-bas .
+*FAT:	des poules (.) oui .
+%mor:	prep|de&les n|poule&f-PL co|oui=yes .
+*FAT:	et puis ça ?
+%mor:	conj|et adv|puis pro:dem|ça ?
+*CHI:	chat .
+%mor:	n|chat&m .
+*FAT:	non (.) c'est pas un chat ça .
+%mor:	co|non=no pro:dem|ce$v:aux|être&PRES&3s adv:neg|pas det:art|un&m&sg
+	n|chat&m pro:dem|ça .
+*CHI:	ɘ@u wawa@c .
+%mor:	uni|ɘ chi|wawa .
+*FAT:	non plus .
+%mor:	co|non=no qn|plus .
+*FAT:	regarde !
+%mor:	v|regarder-IMP&2s !
+*FAT:	ils sont tout frisés .
+%mor:	pro:subj|ils v:aux|être&PRES&3p adv|tout part|friser-PP&m&pl .
+*FAT:	c'est des moutons .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s prep|de&les n|mouton&m-PL .
+*CHI:	xxx .
+*CHI:	ça .
+%mor:	pro:dem|ça .
+*FAT:	des moutons .
+%mor:	prep|de&les n|mouton&m-PL .
+*CHI:	ça ?
+%mor:	pro:dem|ça ?
+*CHI:	oh ça .
+%mor:	co|oh pro:dem|ça .
+*FAT:	ça c'est des boutons .
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s prep|de&les n|bouton&m-PL
+	.
+*CHI:	ja@o .
+%mor:	on|ja .
+%com:	Marie crie .
+*CHI:	il est dodo ?
+%mor:	pro:subj|il v:aux|être&PRES&3s n|dodo&m=sleep ?
+*FAT:	comme ceux qu'il y a sur le lit de Marie .
+%mor:	adv|comme pro:dem|celui&pl pro:rel|que$pro:subj|il pro:y|y
+	v:aux|avoir&PRES&3s prep|sur det:art|le&m&sg n|lit&m prep|de
+	n:prop|Marie .
+*CHI:	xxx dodo ?
+%mor:	co|dodo ?
+*CHI:	(en)core dodo ?
+%mor:	adv|encore n|dodo&m=sleep ?
+*FAT:	on peut faire dodo sur la couverture (.) oui .
+%mor:	pro:subj|on v:mdl|pouvoir&PRES&3s v:mdl|faire-INF co|dodo prep|sur
+	det:art|la&f&sg n|couverture&f co|oui=yes .
+*CHI:	xxx ?
+*CHI:	dodo .
+%mor:	co|dodo .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*FAT:	on fait un petit lit pour Valérie .
+%mor:	pro:subj|on part|faire-PP&m det:art|un&m&sg adj|petit&m n|lit&m
+	prep|pour n:prop|Valérie .
+*CHI:	oui .
+%mor:	co|oui=yes .
+*FAT:	oui ?
+%mor:	co|oui=yes ?
+*FAT:	comme ça ?
+%mor:	adv|comme pro:dem|ça ?
+*CHI:	xxx là-bas (.) dodo .
+%mor:	adv:place|là-bas n|dodo&m=sleep .
+*CHI:	ça .
+%mor:	pro:dem|ça .
+*FAT:	tu veux encore lui mettre son sac de couchage ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s adv|encore part|luire&PP&m
+	v|mettre-INF det:poss|son&m&sg n|sac&m prep|de n|couchage&m ?
+*FAT:	le sac de couchage là ?
+%mor:	det:art|le&m&sg n|sac&m prep|de n|couchage&m adv:place|là ?
+*CHI:	là ?
+%mor:	adv:place|là ?
+*FAT:	ouais .
+%mor:	co|ouais=yes .
+*CHI:	dodo [/] (.) dodo .
+%mor:	co|dodo .
+*FAT:	attends !
+%mor:	v|attendre-IMP&2s !
+*FAT:	il est là dedans .
+%mor:	pro:subj|il v:aux|être&PRES&3s adv:place|là adv:place|dedans .
+*CHI:	xxx dodo .
+%mor:	co|dodo .
+*CHI:	voilà (.) voilà .
+%mor:	adv:place|voilà adv:place|voilà .
+*CHI:	xxx .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	la pose@u là .
+%mor:	det:art|la&f&sg uni|pose adv:place|là .
+*CHI:	xxx sam@u (.) voilà .
+%mor:	uni|sam adv:place|voilà .
+*CHI:	a@u sam@u .
+%mor:	uni|a uni|sam .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	xxx .
+*FAT:	il faut que je mette la poupée là-dessus ?
+%mor:	pro:subj|il v:mdl|falloir&PRES&3s pro:rel|que pro:subj|je
+	v|mettre-PRES&SUB&13s det:art|la&f&sg n|poupée&f adv:place|là-dessus
+	?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	ouais ?
+%mor:	co|ouais=yes ?
+*FAT:	assise ou couchée ?
+%mor:	adj|assise conj|ou part|coucher-PP&f ?
+*CHI:	o@u co(u)ché là-bas .
+%mor:	uni|o part|coucher-PP&m adv:place|là-bas .
+*FAT:	couchée (.) d'accord .
+%mor:	part|coucher-PP&f adv|d'accord .
+*FAT:	xxx .
+*CHI:	<a@u chat là-bas> [/] .
+*CHI:	a@u chat là-bas .
+%mor:	uni|a n|chat&m adv:place|là-bas .
+*CHI:	là-bas .
+%mor:	adv:place|là-bas .
+*CHI:	<a@u chat là-bas> [/] .
+*CHI:	<a@u chat là-bas> [/] .
+*CHI:	<a@u chat là-bas> [/] .
+*CHI:	a@u chat là-bas .
+%mor:	uni|a n|chat&m adv:place|là-bas .
+*FAT:	oui ça c'est un chat là .
+%mor:	co|oui=yes pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s det:art|un&m&sg
+	n|chat&m adv:place|là .
+*FAT:	voilà (.) j'ai mis Valérie .
+%mor:	adv:place|voilà pro:subj|je$v:aux|avoir&PRES&1s adj|mi&m-PL=half
+	n:prop|Valérie .
+*FAT:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	dodo .
+%mor:	co|dodo .
+*CHI:	xxx dodo .
+%mor:	co|dodo .
+*CHI:	dodo dodo .
+%mor:	co|dodo co|dodo .
+*CHI:	tiens !
+%mor:	v|tenir-IMP&2s !
+*CHI:	xxx assis .
+%mor:	v|asseoir&PASS&12s .
+*FAT:	assise ?
+%mor:	adj|assise ?
+*CHI:	couché .
+%mor:	part|coucher-PP&m .
+*FAT:	d'accord .
+%mor:	adv|d'accord .
+*CHI:	xxx .
+*FAT:	tu veux la couvrir ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s pro:obj|la v|couvrir-INF ?
+*FAT:	on lui mets son petit bonnet ?
+%mor:	pro:subj|on part|luire&PP&m n|mets&m n|son&m=sound adj|petit&m
+	n|bonnet&m ?
+*FAT:	comme ça ?
+%mor:	adv|comme pro:dem|ça ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*CHI:	hop .
+%mor:	co|hop .
+*CHI:	xxx .
+*CHI:	xxx là-bas .
+%mor:	adv:place|là-bas .
+*CHI:	t'assieds m@u papa .
+%mor:	pro:obj|te$v|asseoir&PRES&12s uni|m n|papa&m .
+*FAT:	je peux pas m'asseoir sur des petites chaises (.) Marie .
+%mor:	pro:subj|je v:mdl|pouvoir&PRES&12s adv:neg|pas
+	pro:obj|me$v|asseoir&INF prep|sur prep|de&les adj|petit&f-PL
+	n|chaise&f-PL n:prop|Marie .
+*FAT:	je suis trop lourd .
+%mor:	pro:subj|je v:aux|être&PRES&1s adv|trop adv|lourd .
+*CHI:	xxx .
+*FAT:	ça risque de casser comme l'autre petite chaise .
+%mor:	pro:dem|ça n|risque&m prep|de v|casser-INF prep|comme
+	det:art|le$pro|autre&sg adj|petit&f n|chaise&f .
+*CHI:	quoi ?
+%mor:	pro:int|quoi ?
+*FAT:	je peux m'asseoir là-dessus si tu veux .
+%mor:	pro:subj|je v:mdl|pouvoir&PRES&12s pro:obj|me$v|asseoir&INF
+	adv:place|là-dessus n|si&m pro:subj|tu v:mdl|vouloir&PRES&12s .
+*CHI:	non .
+%mor:	co|non=no .
+*CHI:	ah il est là .
+%mor:	co|ah pro:subj|il v:aux|être&PRES&3s adv:place|là .
+*CHI:	là (.) voilà .
+%mor:	adv:place|là adv:place|voilà .
+*FAT:	non (.) sur celle-là je peux pas m'asseoir non plus .
+%mor:	co|non=no prep|sur pro:dem|celle-là pro:subj|je
+	v:mdl|pouvoir&PRES&12s adv:neg|pas pro:obj|me$v|asseoir&INF
+	co|non=no qn|plus .
+*CHI:	là ?
+%mor:	adv:place|là ?
+*FAT:	non plus .
+%mor:	co|non=no qn|plus .
+*FAT:	ça c'est pour +//.
+%mor:	pro:dem|ça pro:dem|ce$v:aux|être&PRES&3s prep|pour +//.
+*FAT:	les petites chaises (.) c'est pour Marie .
+%mor:	det:art|les&pl adj|petit&f-PL n|chaise&f-PL
+	pro:dem|ce$v:exist|être&PRES&3s prep|pour n:prop|Marie .
+*FAT:	par contre le petit escabeau là (.) il est suffisamment solide pour que je m'assois dessus .
+%mor:	adv|par prep|contre det:art|le&m&sg adj|petit&m n|escabeau&m
+	adv:place|là pro:subj|il v:aux|être&PRES&3s adv|suffisamment
+	n|solide&m prep|pour pro:rel|que pro:subj|je
+	pro:obj|me$v|asseoir&PRES&12s adv:place|dessus .
+*CHI:	pas papa le casser ?
+%mor:	adv:neg|pas n|papa&m det:art|le&m&sg v|casser-INF ?
+*CHI:	casser xxx papa .
+%mor:	v|casser-INF n|papa&m .
+*FAT:	non (.) celui-là doit pas casser si je m'assieds dessus .
+%mor:	co|non=no pro:dem|celui-là v:mdl|devoir&PRES&3s adv:neg|pas
+	v|casser-INF adv|si pro:subj|je pro:obj|me$v|asseoir&PRES&12s
+	adv:place|dessus .
+*FAT:	les petites chaises elles vont casser .
+%mor:	det:art|les&pl adj|petit&f-PL n|chaise&f-PL pro:subj|elles
+	v:mdl|aller&PRES&3p v|casser-INF .
+*CHI:	(e)lle est cassé(e) l'aut(re) chai(se) ?
+%mor:	pro:subj|elle v:aux|être&PRES&3s part|casser-PP&f
+	det:art|le$pro|autre&sg n|chaise&f ?
+*FAT:	oui (.) l'autre chaise elle est cassée (.) oui .
+%mor:	co|oui=yes det:art|le$pro|autre&sg n|chaise&f pro:subj|elle
+	v:aux|être&PRES&3s part|casser-PP&f n|oui&m .
+*CHI:	cassé(e) cha(i)se .
+%mor:	part|casser-PP&f n|chaise&f .
+*FAT:	ouais .
+%mor:	co|ouais=yes .
+*CHI:	là-bas .
+%mor:	adv:place|là-bas .
+*CHI:	et c'est la balle ça .
+%mor:	conj|et pro:dem|ce$v:exist|être&PRES&3s det:art|la&f&sg n|balle&f
+	pro:dem|ça .
+*CHI:	là-bas [/] là-bas .
+%mor:	adv:place|là-bas .
+*CHI:	là (.) ça .
+%mor:	adv:place|là pro:dem|ça .
+*CHI:	<xxx chaussons> [/] .
+*CHI:	xxx chaussons .
+%mor:	n|chausson&m-PL .
+*FAT:	les chaussons je les ai mis juste là parce que t(u) as voulu les enlever .
+%mor:	det:art|les&pl n|chausson&m-PL pro:subj|je pro:obj|les
+	v:aux|avoir&PRES&1s part|mettre-PP&m adv|juste adv:place|là
+	adv|parce adv|que pro:subj|tu v:aux|avoir&PRES&2s adj|voulu&m
+	pro:obj|les v|enlever-INF .
+*FAT:	ils sont là .
+%mor:	pro:subj|ils v:aux|être&PRES&3p adv:place|là .
+*CHI:	me mett(r)e .
+%mor:	pro:obj|me v|mettre-INF .
+*FAT:	tu veux les mettre ?
+%mor:	pro:subj|tu v:mdl|vouloir&PRES&12s pro:obj|les v|mettre-INF ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*CHI:	t'assieds .
+%mor:	pro:obj|te$v|asseoir&PRES&12s .
+*CHI:	les toson [: chaussons] .
+%mor:	det:art|les&pl n|chausson&m-PL .
+*FAT:	attends !
+%mor:	v|attendre-IMP&2s !
+*CHI:	toson [: chaussons] (.) voilà .
+%mor:	v|chausser-IMP&1p adv:place|voilà .
+*CHI:	xxx .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+*CHI:	là (.) voilà .
+%mor:	adv:place|là adv:place|voilà .
+*FAT:	alors on met les chaussons ?
+%mor:	adv|alors pro:subj|on v|mettre-PRES&3s det:art|les&pl
+	n|chausson&m-PL ?
+*CHI:	ouais .
+%mor:	co|ouais=yes .
+*FAT:	laisse le !
+%mor:	n|laisse&f det:art|le&m&sg !
+%com:	Marie part .
+*FAT:	eh bien (.) si tu pars en courant je vais pas pouvoir mettre tes chaussons .
+%mor:	co|eh n|bien&m adv|si pro:subj|tu v|partir-IMP&PRES&12s prep|en
+	n|courant&m pro:subj|je v:mdl|aller&PRES&1s adv:neg|pas n|pouvoir&m
+	v|mettre-INF det:poss|tes&pl n|chausson&m-PL .
+*CHI:	xxx .
+*FAT:	tu fais attention avec les doigts avec le coffret .
+%mor:	pro:subj|tu v:mdllex|faire-PRES&12s co|attention prep|avec
+	det:art|les&pl n|doigt&m-PL prep|avec det:art|le&m&sg n|coffret&m .
+*FAT:	d'accord (.) il est fermé .
+%mor:	adv|d'accord pro:subj|il v:aux|être&PRES&3s part|fermer-PP&m .
+*CHI:	papon@wp .
+%mor:	wplay|papon .
+%com:	Marie repète le mot plusieurs fois , imitant le bruit des sirènes .
+*FAT:	qu'est ce que tu fais ?
+%mor:	pro:int|que$v:aux|être&PRES&3s pro:dem|ce adv|que pro:subj|tu
+	v:mdllex|faire-PRES&12s ?
+*FAT:	le camion des pompiers là ?
+%mor:	det:art|le&m&sg n|camion&m prep|de&les n|pompier&m-PL adv:place|là
+	?
+*CHI:	papon@wp .
+%mor:	wplay|papon .
+%com:	Marie tape sur quelque chose .
+*FAT:	doucement Marie .
+%mor:	adv|doucement n:prop|Marie .
+%com:	Marie tape encore .
+*FAT:	Marie (.) doucement un peu .
+%mor:	n:prop|Marie adv|doucement det:art|un&m&sg n|peu&m .
+*FAT:	c'est pas très solide (.) cette baguette .
+%mor:	pro:dem|ce$v:aux|être&PRES&3s adv:neg|pas adv|très n|solide&m
+	det:dem|cette&f&sg n|baguette&f .
+*CHI:	xxx .
+*CHI:	co(u)ché [/] .
+*CHI:	co(u)ché .
+%mor:	part|coucher-PP&m .
+*CHI:	voilà .
+%mor:	adv:place|voilà .
+@End
