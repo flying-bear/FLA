@@ -40,11 +40,16 @@ def extract_meta(text): # extract age, name and lang of the child
     match_age = re.findall('@ID:\t.+\|.+\|CHI\|([0-9,.;]+).+\n', text)
     if match_age:
         y,r = match_age[0].split(';')
-        m,d = r.split('.')
-        if d:
-            data['age'] = 12*int(y) + int(m) + 1/30 * int(d)
+        if '.' in r:
+            m,d = r.split('.')
+            if d:
+                data['age'] = 12*int(y) + int(m) + 1/30 * int(d)
+            else:
+                data['age'] = 12*int(y) + int(m)
+        elif r:
+            data['age'] = 12*int(y) + int(r)
         else:
-            data['age'] = 12*int(y) + int(m)
+            data['age'] = 12*int(y)
     match_child = re.findall('@Participants:.+?CHI (.+?) .+?\n',text)
     if match_child:
         data['name'] = match_child[0]
@@ -83,10 +88,9 @@ def extract_words_by_participant(text, words, participants): # count how many ti
 
 def walk(folder, words): # walk a folder and extract frequencies of a given wordlist
     result_db = {}
-    i = 100
     for address, dirs, files in os.walk(folder):
         for file in files:
-            if i:
+            if len(file.split('.')) == 2:
                 if not file.split('.')[1] == 'cha':
                     continue
                 path = address+'\\'+file
@@ -96,7 +100,8 @@ def walk(folder, words): # walk a folder and extract frequencies of a given word
                     continue
                 meta.update({'filepath': path, 'filename': file})
                 result_db[path] = {'meta': meta, 'words_b_p': extract_words_by_participant(text, words, meta['participants'])}
-            i -= 1
+            else:
+                continue
     return result_db
             
 
