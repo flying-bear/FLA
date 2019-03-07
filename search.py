@@ -45,7 +45,7 @@ def extract_meta(text): # extract age, name and lang of the child
             data['age'] = 12*int(y) + int(m) + 1/30 * int(d)
         else:
             data['age'] = 12*int(y) + int(m)
-    match_child = re.findall('@Participants:\tCHI (.+?) .+\n',text)
+    match_child = re.findall('@Participants:.+?CHI (.+?) .+?\n',text)
     if match_child:
         data['name'] = match_child[0]
     match_participants = list(set(re.findall('(?:\t| )([A-Z]{3})', text)))
@@ -74,25 +74,56 @@ def extract_words_by_participant(text, words, participants): # count how many ti
                             words_by_participant[p][word] += counted_line_words[word]
     for p in participants:
         for word in words_by_participant[p]:
-            words_by_participant[p][word] = words_by_participant[p][word]/number_of_words_by_participant[p]
+            if number_of_words_by_participant[p]:
+                words_by_participant[p][word] = words_by_participant[p][word]/number_of_words_by_participant[p]
+            else:
+                words_by_participant[p][word] = 0
     return words_by_participant
 
 
-def walk(folder): # walk a folder and ???
+def walk(folder, words): # walk a folder and extract frequencies of a given wordlist
+    result_db = {}
+    i = 100
     for address, dirs, files in os.walk(folder):
         for file in files:
-            print(address+'/'+file) # ???
+            if i:
+                if not file.split('.')[1] == 'cha':
+                    continue
+                path = address+'\\'+file
+                text = read_file(path)
+                meta = extract_meta(text)
+                if not meta['age']:
+                    continue
+                meta.update({'filepath': path, 'filename': file})
+                result_db[path] = {'meta': meta, 'words_b_p': extract_words_by_participant(text, words, meta['participants'])}
+            i -= 1
+    return result_db
+            
 
 def main():
-    filepath = 'kevin2.cha'
-    text = read_file(filepath)
-    data = {'file': filepath}
-    data.update(extract_meta(text))
-    w_b_p = extract_words_by_participant(text, ['i', 'me', 'you', 'she', 'he', 'it'], data['participants'])
-    for p in w_b_p:
-        print(p)
-        for w in sorted(w_b_p[p]):
-            print(w+': '+str(w_b_p[p][w]))
+    words = ['i', 'me', 'you', 'she', 'he', 'it']
+    db = walk(input('print root directory: '), words)
+    with open('result.csv', 'w', encoding='utf-8') as file:
+        file.write('path,filename,languge,age,childname,participant,')
+        file.write(','.join(words)+'\n')
+        for key in db:
+            if not db[key]:
+                continue
+            for participant in db[key]['words_b_p']:
+                line = [key, db[key]['meta']['filename'], db[key]['meta']['lang'], str(db[key]['meta']['age']), db[key]['meta']['name']]
+                line.append(participant)
+                for word in words:
+                    line.append(str(db[key]['words_b_p'][participant][word]))
+                file.write(','.join(line)+'\n')
+##    filepath = 'kevin2.cha'
+##    text = read_file(filepath)
+##    data = {'file': filepath}
+##    data.update(extract_meta(text))
+##    w_b_p = extract_words_by_participant(text, ['i', 'me', 'you', 'she', 'he', 'it'], data['participants'])
+##    for p in w_b_p:
+##        print(p)
+##        for w in sorted(w_b_p[p]):
+##            print(w+': '+str(w_b_p[p][w]))
 
 
 if __name__ == "__main__":
