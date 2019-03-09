@@ -57,7 +57,7 @@ def extract_meta(text): # extract age, name and lang of the child
             data['age'] = 12*int(y) + int(r)
         else:
             data['age'] = 12*int(y)
-    match_child = re.findall('@Participants:.+?CHI (.+?) .+?\n',text)
+    match_child = re.findall('@Participants:.+?CHI (.+?)\s.*?\n',text)
     if match_child:
         data['name'] = match_child[0]
     match_participants = list(set(re.findall('\|([A-Z]{3})\|', text)))
