@@ -53,7 +53,7 @@ def extract_meta(text): # extract age, name and lang of the child
     match_child = re.findall('@Participants:.+?CHI (.+?) .+?\n',text)
     if match_child:
         data['name'] = match_child[0]
-    match_participants = list(set(re.findall('(?:\t| )([A-Z]{3})', text)))
+    match_participants = list(set(re.findall('\|([A-Z]{3})\|', text)))
     if match_participants:
         data['participants'] = match_participants
     return data
@@ -90,6 +90,7 @@ def walk(folder, words): # walk a folder and extract frequencies of a given word
     result_db = {}
     for address, dirs, files in os.walk(folder):
         for file in files:
+            print(f'file being worked with: {file}')
             if len(file.split('.')) == 2:
                 if not file.split('.')[1] == 'cha':
                     continue
