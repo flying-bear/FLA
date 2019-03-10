@@ -120,8 +120,8 @@ def walk(folder, words): # walk a folder and extract frequencies of a given word
 
 def main():
     word_regex_dict = {'1sg': 'pro:subj\|je|j\'|pro:(:?obj|refl)\|me|m\'|\|moi',
-                       '2sg': 'tu|t\'|te|\|toi',
-                       '3sg': 'il|pro:obj\|le|pro:obj\|la|elle|pro:refl\|se|s\'|\|soi',
+                       '2sg': 'pro:subj\|tu|t\'|te|\|toi',
+                       '3sg': 'pro:subj\|il|pro:obj\|le|pro:obj\|la|elle|pro:refl\|se|s\'|\|soi',
                        'on': 'pro:subj\|on', # se etc
                        'y': 'pro:y\|en|pro:y\|y', # not found even once!!
                        '1pl': 'nous',
