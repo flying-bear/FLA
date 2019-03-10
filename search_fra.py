@@ -43,7 +43,7 @@ def extract_meta(text): # extract age, name and lang of the child
             'participants': {}}
     match_lang = re.findall('@Languages:\t(.+)\n', text)
     if match_lang:
-        data['lang'] = match_lang[0]
+        data['lang'] = re.sub(',', '&', match_lang[0])
     match_age = re.findall('@ID:\t.+\|.+\|CHI\|([0-9,.;]+).+\n', text)
     if match_age:
         y,r = match_age[0].split(';')
