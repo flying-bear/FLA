@@ -58,25 +58,30 @@ def extract_meta(text): # extract age, name and lang of the child
         data['participants'] = match_participants
     return data
 
+def clean_line(line):
+    line = re.sub('[\!"#\$%&\\\(\)\+,\.\/:;<=>\?@\[\]\^_`{\|}~]','',line) # strip punctuation
+    line = line.lower()
+    return line
 
 
-def extract_words_by_participant(text, words, participants): # count how many times each word in words was used by each participant
+def extract_words_by_participant(text, word_regex_dict, participants): # count how many times each word in words was used by each participant
                                                # count the amount of utterances / words by each participant
-    words_by_participant = dict(zip(participants, [dict(zip(words, [0 for j in range(len(words))])) for i in range(len(participants))]))
+    words_by_participant = dict(zip(participants, [dict(zip(word_regex_dict.keys(), [0 for j in range(len(word_regex_dict.keys()))])) for i in range(len(participants))]))
     number_of_words_by_participant = dict(zip(participants, [0 for i in range(len(participants))]))
     lines = text.split('\n')
-    for line in lines:
-        line = re.sub('[\!"#\$%&\\\(\)\+,-\.\/:;<=>\?@\[\]\^_`{\|}~]','',line) # strip punctuation
-        line = re.sub('\'(?:ll|d|s)','',line)
+    for i in range(len(lines)):
+        line = lines[i]
         for p in participants:
             if re.match(f'\*{p}', line):
-                line = line.lower()
+                line = clean_line(line)
+                morph = lines[i+1]
+                text = line + '\n' + morph
                 all_line_words = line.split('\t')[1].split()
                 number_of_words_by_participant[p] += len(all_line_words)
-                counted_line_words = Counter(all_line_words)
-                for word in words:
-                    if word in all_line_words:
-                            words_by_participant[p][word] += counted_line_words[word]
+                for key in word_regex_dict:
+                    match = re.findall(word_regex_dict[key], text)
+                    if match:
+                        words_by_participant[p][key] += len(match) 
     for p in participants:
         for word in words_by_participant[p]:
             if number_of_words_by_participant[p]:
@@ -106,21 +111,27 @@ def walk(folder, words): # walk a folder and extract frequencies of a given word
             
 
 def main():
-    words = ['i', 'me', 'you', 'she', 'he', 'it']
-    db = walk(input('print root directory: '), words)
+    word_regex_dict = {'I': 'I|me|myself',
+                       'we': 'we|us|ourselves',
+                       'you': 'you|yourself|yourselves',
+                       'he': 'he|him|himself',
+                       'she': 'she|pro:obj\|her|herself',
+                       'it': 'it|itself',
+                       'they': 'they|them|themselves'}
+    db = walk(input('print root directory: '), word_regex_dict)
     with open('result.csv', 'w', encoding='utf-8') as file:
         file.write('path,filename,languge,age,childname,participant,')
-        file.write(','.join(words)+'\n')
+        file.write(','.join(word_regex_dict.keys())+'\n')
         for key in db:
             if not db[key]:
                 continue
             for participant in db[key]['words_b_p']:
                 line = [key, db[key]['meta']['filename'], db[key]['meta']['lang'], str(db[key]['meta']['age']), db[key]['meta']['name']]
                 line.append(participant)
-                for word in words:
+                for word in word_regex_dict.keys():
                     line.append(str(db[key]['words_b_p'][participant][word]))
                 file.write(','.join(line)+'\n')
-##    filepath = 'kevin2.cha'
+##    filepath = '010421.cha'
 ##    text = read_file(filepath)
 ##    data = {'file': filepath}
 ##    data.update(extract_meta(text))
