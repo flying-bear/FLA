@@ -111,13 +111,13 @@ def walk(folder, words): # walk a folder and extract frequencies of a given word
             
 
 def main():
-    word_regex_dict = {'I': 'I|me|myself',
-                       'we': 'we|us|ourselves',
-                       'you': 'you|yourself|yourselves',
-                       'he': 'he|him|himself',
-                       'she': 'she|pro:obj\|her|herself',
-                       'it': 'it|itself',
-                       'they': 'they|them|themselves'}
+    word_regex_dict = {'1sg': 'pro:sub\|I|pro:obj\|me|myself',
+                       '1pl': 'pro:sub\|we|pro:obj\|us|ourselves',
+                       '2': 'you|yourself|yourselves',
+                       '3sgM': 'pro:sub\|he|him|himself',
+                       '3sgF': 'pro:sub\|she|pro:obj\|her|herself',
+                       '3sgN': 'it|itself',
+                       '3pl': 'they|them|themselves'}
     db = walk(input('print root directory: '), word_regex_dict)
     with open('result.csv', 'w', encoding='utf-8') as file:
         file.write('path,filename,languge,age,childname,participant,')
