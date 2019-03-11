@@ -25,7 +25,8 @@ fra %>% # sample size
   summarize(n = n())
 
 fra %>% 
-  mutate(`2` = `2sg` + `2pl`) -> fra 
+  mutate(`2` = `2sg` + `2pl`,
+         `3` = `3sg` + `3pl`) -> fra 
 
 ages %>% # plot a of sample size by age
   ggplot(aes(age, n))+
@@ -35,7 +36,7 @@ ages %>% # plot a of sample size by age
 
 fra %>%
   filter(age < 40 & age > 20) %>% 
-  gather('pronoun', 'share', 7:15) -> pron_fra
+  gather('pronoun', 'share', 7:16) -> pron_fra
 
 pron_fra %>% # summary
   mutate(participant = ifelse(participant %in% adults, 'ADU', participant)) %>% 
@@ -74,14 +75,16 @@ pron_fra %>% #gam models
   labs(x = 'age in months', y = 'share of pronouns in words uttered', 
        title = 'french pronoun share  by age, regression model')
 
-comparable <-  c('1sg', '3sg', '1pl', '2')
+comparable <-  c('1sg', '1pl', '2', '3')
 
 pron_fra %>% 
   filter(pronoun %in% comparable) %>% 
   mutate(languge = 'fra') %>% 
   select(-path, -filename, -childname) -> pron_fra_merge
 
-pron <- rbind(pron_fra_merge, pron_eng_merge)
+pron_ger_merge <- read_csv('pron_ger_merge.csv')
+
+pron <- rbind(pron_fra_merge, pron_eng_merge, pron_ger_merge)
 
 pron %>%
   group_by(pronoun) %>% 
@@ -89,4 +92,4 @@ pron %>%
   ggplot(aes(age, share, color = pronoun, linetype = languge))+
   geom_smooth(method = 'lm')+
   labs(x = 'age in months', y = 'share of pronouns in words uttered', 
-       title = 'comparison of french and english pronoun shares  by age, linear model')
+       title = 'comparison of english, french and german pronoun shares  by age, linear model')

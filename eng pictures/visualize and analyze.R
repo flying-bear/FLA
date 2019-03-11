@@ -30,7 +30,7 @@ eng %>% # take relatively well-represented part (see commet below)
 #        title = 'sample size by age for english')
 
 eng %>% 
-  mutate(`3sg` = `3sgF` + `3sgM` + `3sgN`) -> eng 
+  mutate(`3` = `3sgF` + `3sgM` + `3sgN`+`3pl`) -> eng 
 
 eng %>% # sample size 
   filter(participant == 'CHI') %>% 
@@ -95,7 +95,7 @@ pron_eng %>% #gam models
   labs(x = 'age in months', y = 'share of pronouns in words uttered', 
        title = 'english pronoun share  by age, regression model')
 
-comparable <-  c('1sg', '3sg', '1pl', '2')
+comparable <-  c('1sg', '3', '1pl', '2')
 
 pron_eng %>% 
   filter(pronoun %in% comparable) %>% 
