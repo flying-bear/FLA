@@ -41,7 +41,6 @@ pron_fra %>%
   mutate(share = share*100) %>%
   mutate(pronoun = ifelse(pronoun == 'y'|pronoun=='on'|pronoun == '1sg'|pronoun == '2sg'|pronoun == '3sg','sg', 'pl')) -> chi_fra
 
-
 fit_eng <- lmer(share ~ age*pronoun + (1|childname), data = chi_eng)
 summary(fit_eng)
 
