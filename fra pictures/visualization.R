@@ -1,5 +1,8 @@
 library(tidyverse)
 library(tidyr)
+library(lme4)
+library(lmerTest)
+
 
 adults <- c('MOT', 
             'FAT', 'DAD',
@@ -16,7 +19,7 @@ fra <- read_csv('C:/My/studies/UIT/FLA/code/FLA/result_french_personal.csv')
 fra %>% # sample size by age
   filter(participant == 'CHI') %>%
   select(age) %>%
-  mutate(age = round(age)) %>%
+  mutate(age = floor(age)) %>%
   group_by(age) %>%
   summarize(n = n()) -> ages
 
@@ -35,8 +38,14 @@ ages %>% # plot a of sample size by age
        title = 'sample size by age for french')
 
 fra %>%
-  filter(age < 40 & age > 20) %>% 
+  filter(age < 35 & age > 25) %>% 
   gather('pronoun', 'share', 7:16) -> pron_fra
+
+pron_fra %>%
+  filter(participant == 'CHI') %>%
+  mutate(age = floor(age)) %>% 
+  spread('age','share') %>% 
+  write.csv('spread_pronoun_fra.csv')
 
 pron_fra %>% # summary
   mutate(participant = ifelse(participant %in% adults, 'ADU', participant)) %>% 
@@ -82,14 +91,30 @@ pron_fra %>%
   mutate(languge = 'fra') %>% 
   select(-path, -filename, -childname) -> pron_fra_merge
 
+#### for merging ####
+
 pron_ger_merge <- read_csv('pron_ger_merge.csv')
 
 pron <- rbind(pron_fra_merge, pron_eng_merge, pron_ger_merge)
 
 pron %>%
-  group_by(pronoun) %>% 
   filter(participant == 'CHI') %>% 
-  ggplot(aes(age, share, color = pronoun, linetype = languge))+
+  mutate(language = languge) %>%
+  select(-languge) %>% 
+  filter(share != 1)-> pron
+
+pron %>%
+  group_by(pronoun) %>% 
+  ggplot(aes(age, share, color = pronoun, linetype = language))+
   geom_smooth(method = 'lm')+
   labs(x = 'age in months', y = 'share of pronouns in words uttered', 
        title = 'comparison of english, french and german pronoun shares  by age, linear model')
+
+pron %>%
+  mutate(eng = ifelse(language == 'eng', 1, 0)) %>%
+  mutate(ger = ifelse(language == 'ger', 1, 0)) %>%
+  select(-language) -> pron
+m1 <- summary(lm(share~age+pronoun+eng+ger, data = pron))
+m1
+
+qqnorm(m1$residuals)

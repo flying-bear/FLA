@@ -12,7 +12,9 @@ adults <- c('MOT',
 
 eng <- read_csv('C:/My/studies/UIT/FLA/code/FLA/result_english_personal.csv')
 eng %>% # take relatively well-represented part (see commet below)
-  filter(age < 40 & age > 20) -> eng
+  filter(age < 36 & age > 24) %>% 
+  mutate(participant = ifelse(participant %in% adults, 'ADU', participant)) %>% 
+  filter(participant == 'ADU' | participant == 'CHI') -> eng
 
 # #  representation issues
 # eng %>% # sample size by age
@@ -32,17 +34,19 @@ eng %>% # take relatively well-represented part (see commet below)
 eng %>% 
   mutate(`3` = `3sgF` + `3sgM` + `3sgN`+`3pl`) -> eng 
 
+eng %>% 
+  filter(participant == 'CHI') %>%
+  gather('pronoun', 'share', 7:14) %>% 
+  mutate(age = floor(age)) %>% 
+  spread('age','share') %>% 
+  write.csv('spread_pronoun_eng.csv')
+
 eng %>% # sample size 
   filter(participant == 'CHI') %>% 
   summarize(n = n())
   
 eng %>% # summary
-  gather('pronoun', 'share', 7:14) -> pron_eng
-
-pron_eng %>% # summary
-  mutate(participant = ifelse(participant %in% adults, 'ADU', participant)) %>% 
-  filter(participant == 'ADU' | participant == 'CHI') -> pron_eng
-
+  gather('pronoun', 'share', 7:13) -> pron_eng
 
 pron_eng %>% # summary
   filter(participant == 'ADU') %>% 
@@ -95,9 +99,17 @@ pron_eng %>% #gam models
   labs(x = 'age in months', y = 'share of pronouns in words uttered', 
        title = 'english pronoun share  by age, regression model')
 
+
 comparable <-  c('1sg', '3', '1pl', '2')
 
 pron_eng %>% 
   filter(pronoun %in% comparable) %>% 
   mutate(languge = 'eng') %>% 
   select(-path, -filename, -childname) -> pron_eng_merge
+
+
+children_fra <- as.data.frame(table(fra$childname))
+as.tibble(children_fra[order(children_fra$Freq, decreasing=TRUE),])
+children_eng <- as.data.frame(table(eng$childname))
+as.tibble(children_eng[order(children_eng$Freq, decreasing=TRUE),])
+
