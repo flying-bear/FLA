@@ -34,8 +34,9 @@ fra %>%
 ages %>% # plot a of sample size by age
   ggplot(aes(age, n))+
   geom_smooth(color = 'black')+
-  labs(x = 'age in months', y = 'sample size',
-       title = 'sample size by age for french')
+  geom_line(color = 'red')+
+  labs(x = 'age in months', y = 'sample size in files',
+       title = 'sample size by age for French children')
 
 fra %>%
   filter(age < 35 & age > 25) %>% 
@@ -105,16 +106,18 @@ pron %>%
 
 pron %>%
   group_by(pronoun) %>% 
+  mutate(language = languge) %>% 
   ggplot(aes(age, share, color = pronoun, linetype = language))+
-  geom_smooth(method = 'lm')+
+  geom_smooth(method = 'lM')+
   labs(x = 'age in months', y = 'share of pronouns in words uttered', 
-       title = 'comparison of english, french and german pronoun shares  by age, linear model')
+       title = 'comparison of English and French pronoun shares  by age, linear model')
 
 pron %>%
+  mutate(language = languge) %>% 
   mutate(eng = ifelse(language == 'eng', 1, 0)) %>%
-  mutate(ger = ifelse(language == 'ger', 1, 0)) %>%
+  mutate(fra = ifelse(language == 'fra', 1, 0)) %>%
   select(-language) -> pron
-m1 <- summary(lm(share~age+pronoun+eng+ger, data = pron))
+m1 <- summary(lm(share~age+pronoun+eng+fra, data = pron))
 m1
 
 qqnorm(m1$residuals)

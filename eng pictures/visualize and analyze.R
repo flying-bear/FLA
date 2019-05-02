@@ -24,12 +24,12 @@ eng %>% # take relatively well-represented part (see commet below)
 #   group_by(age) %>%
 #   summarize(n = n()) -> ages
 # 
-# ages %>% # plot a of sample size by age
-#   ggplot(aes(age, n))+
-#   geom_line(color = 'red')+
-#   geom_smooth(color = 'black')+
-#   labs(x = 'age in months', y = 'sample size',
-#        title = 'sample size by age for english')
+ages %>% # plot a of sample size by age
+  ggplot(aes(age, n))+
+  geom_line(color = 'red')+
+  geom_smooth(color = 'black')+
+  labs(x = 'age in months', y = 'sample size in files',
+       title = 'sample size by age for English children')
 
 eng %>% 
   mutate(`3` = `3sgF` + `3sgM` + `3sgN`+`3pl`) -> eng 
