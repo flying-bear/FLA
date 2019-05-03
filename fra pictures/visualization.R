@@ -15,17 +15,17 @@ adults <- c('MOT',
 
 
 fra <- read_csv('C:/My/studies/UIT/FLA/code/FLA/result_french_personal.csv')
-#  representation issues
-fra %>% # sample size by age
-  filter(participant == 'CHI') %>%
-  select(age) %>%
-  mutate(age = floor(age)) %>%
-  group_by(age) %>%
-  summarize(n = n()) -> ages
-
-fra %>% # sample size 
-  filter(participant == 'CHI') %>% 
-  summarize(n = n())
+# #  representation issues
+# fra %>% # sample size by age
+#   filter(participant == 'CHI') %>%
+#   select(age) %>%
+#   mutate(age = floor(age)) %>%
+#   group_by(age) %>%
+#   summarize(n = n()) -> ages
+# 
+# fra %>% # sample size 
+#   filter(participant == 'CHI') %>% 
+#   summarize(n = n())
 
 fra %>% 
   mutate(`2` = `2sg` + `2pl`,
@@ -113,11 +113,37 @@ pron %>%
        title = 'comparison of English and French pronoun shares  by age, linear model')
 
 pron %>%
-  mutate(language = languge) %>% 
+  # mutate(language = languge) %>% 
   mutate(eng = ifelse(language == 'eng', 1, 0)) %>%
   mutate(fra = ifelse(language == 'fra', 1, 0)) %>%
   select(-language) -> pron
-m1 <- summary(lm(share~age+pronoun+eng+fra, data = pron))
+
+pron %>%
+  mutate(share == share*100) -> pron
+
+m1 <- summary(lm(share~age+pronoun+eng, data = pron))
 m1
+
+# Call:
+#   lm(formula = share ~ age + pronoun + eng, data = pron)
+# 
+# Residuals:
+#   Min       1Q   Median       3Q      Max 
+# -0.08893 -0.01822 -0.00341  0.01144  0.32600 
+# 
+# Coefficients:
+#   Estimate Std. Error t value Pr(>|t|)    
+# (Intercept) -5.402e-02  1.960e-03 -27.554  < 2e-16 ***
+#   age          1.774e-03  6.134e-05  28.925  < 2e-16 ***
+#   pronoun1sg   2.304e-02  8.386e-04  27.479  < 2e-16 ***
+#   pronoun2     4.323e-02  8.386e-04  51.550  < 2e-16 ***
+#   pronoun3     6.934e-02  8.386e-04  82.681  < 2e-16 ***
+#   eng          3.886e-03  6.637e-04   5.855 4.89e-09 ***
+#   ---
+#   Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+# 
+# Residual standard error: 0.03255 on 12050 degrees of freedom
+# Multiple R-squared:  0.409,	Adjusted R-squared:  0.4087 
+# F-statistic:  1668 on 5 and 12050 DF,  p-value: < 2.2e-16
 
 qqnorm(m1$residuals)
