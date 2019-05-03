@@ -11,17 +11,12 @@ eng %>%
   mutate(language = 'eng') %>% 
   na.omit() -> eng
 
-# eng %>%
-#   filter(childname == 'Anne') %>% 
-#   filter(pronoun == '1pl') -> an
-# 
-# lm(share~age, data=an)
-
 eng %>% 
+  filter(pronoun != '3' & pronoun != '2' ) %>% 
   ggplot(aes(age, share, color = pronoun))+
-  geom_smooth(method='loess')+
+  geom_smooth(method='lm')+
   labs(x = 'age in months', y = 'percent of pronouns in words uttered', 
-       title = 'English pronouns, percent by age approximated by a smooth model')
+       title = 'English pronouns, percent by age approximated by a linear model')
   
 m_eng <- summary(lm(share~age+pronoun, data = eng))
 m_eng
@@ -59,10 +54,11 @@ fra %>%
   na.omit() -> fra
   
 fra %>% 
+  filter(pronoun != '3' & pronoun != '2' ) %>% 
   ggplot(aes(age, share, color = pronoun))+
-  geom_smooth(method='loess')+
+  geom_smooth(method='lm')+
   labs(x = 'age in months', y = 'percent of pronouns in words uttered', 
-       title = 'French pronouns, percent by age approximated by a smooth model')
+       title = 'French pronouns, percent by age approximated by a linear model')
 
 m_fra <- summary(lm(share~age+pronoun, data = fra))
 m_fra
@@ -146,22 +142,42 @@ m1
 
 qqnorm(m1$residuals)
 
+
+
+
+
+linear <- function(lang, name, pr) {tryCatch({lm(share~age, filter(lang, pronoun == pr & childname == name))$coefficients}, error = function(err){return(c(NA, NA))})}
+# eng %>%
+#   filter(pronoun == '1pl' & childname == 'Anne') -> an
+# 
+# eng %>%
+#   filter(pronoun == '1pl' & childname == 'Anne') %>% 
+#   ggplot(aes(age, share))+
+#   geom_smooth(method='lm')
+# 
+# lm(share~age, data = filter(eng, pronoun == '1pl' & childname == 'Anne'))
+# linear_bad(eng, 'Anne', '1pl')
+
+
+
+
+
 eng_rate <- data.frame(childname= 'name',
                        pronoun='pronoun', 
                        intercept=0,
                        rate=0, 
                        stringsAsFactors=FALSE)
 
-
 for (name in unique(eng$childname)) (for (pr in unique(eng$pronoun)) eng_rate <- rbind(eng_rate, c(name, pr, linear(eng, name, pr))))
 eng_rate <- eng_rate[-c(1), ]
 eng_rate %>% 
-  filter(abs(as.numeric(rate)) < 10) %>% 
   mutate(rate = as.numeric(rate)) %>% 
-  mutate(intercept = as.numeric(intercept)) -> eng_rate
+  mutate(intercept = as.numeric(intercept) + rate*24) -> eng_rate
+
+eng_rate %>% 
+  mutate(language = 'eng') -> eng_rate
 
 
-linear <- function(lang, name, pr) {tryCatch({lm(age~share, filter(lang, pronoun == pr, childname == name))$coefficients}, error = function(err){return(c(NA, NA))})}
 fra_rate <- data.frame(childname= 'name',
                        pronoun='pronoun', 
                        intercept=0,
@@ -171,6 +187,191 @@ fra_rate <- data.frame(childname= 'name',
 for (name in unique(fra$childname)) (for (pr in unique(fra$pronoun)) fra_rate <- rbind(fra_rate, c(name, pr, linear(fra, name, pr))))
 fra_rate <- fra_rate[-c(1), ]
 fra_rate %>% 
-  filter(abs(as.numeric(rate)) < 10) %>% 
   mutate(rate = as.numeric(rate)) %>% 
-  mutate(intercept = as.numeric(intercept)) -> fra_rate
+  mutate(intercept = as.numeric(intercept) + rate*24) -> fra_rate
+
+fra_rate %>% 
+  mutate(language = 'fra') -> fra_rate
+
+fra_eng_rate <- rbind(fra_rate, eng_rate)
+
+### general
+
+t.test(rate ~ language, data = fra_eng_rate)
+# Welch Two Sample t-test
+# 
+# data:  rate by language
+# t = 0.64509, df = 331.49, p-value = 0.5193
+# alternative hypothesis: true difference in means is not equal to 0
+# 95 percent confidence interval:
+#   -0.08748142  0.17285385
+# sample estimates:
+#   mean in group eng mean in group fra 
+# 0.14027806        0.09759185 
+
+t.test(intercept ~ language, data = fra_eng_rate)
+# Welch Two Sample t-test
+# 
+# data:  intercept by language
+# t = -1.7587, df = 339.3, p-value = 0.07954
+# alternative hypothesis: true difference in means is not equal to 0
+# 95 percent confidence interval:
+#   -2.1233655  0.1187243
+# sample estimates:
+#   mean in group eng mean in group fra 
+# 2.799455          3.801776 
+
+### 3
+
+t.test(intercept ~ language, data = filter(fra_eng_rate, pronoun == '3'), alternative='g')
+# ***************************************************************************************
+# Welch Two Sample t-test
+# 
+# data:  intercept by language
+# t = 3.7448, df = 56.484, p-value = 0.0002127
+# alternative hypothesis: true difference in means is greater than 0
+# 95 percent confidence interval:
+#   2.868986      Inf
+# sample estimates:
+#   mean in group eng mean in group fra 
+# 6.720180          1.536209 
+
+t.test(rate ~ language, data = filter(fra_eng_rate, pronoun == '3'))
+# Welch Two Sample t-test
+# 
+# data:  rate by language
+# t = -1.7594, df = 54.777, p-value = 0.08409
+# alternative hypothesis: true difference in means is not equal to 0
+# 95 percent confidence interval:
+#   -0.71733634  0.04665404
+# sample estimates:
+#   mean in group eng mean in group fra 
+# 0.2718536         0.6071947
+
+###2
+
+t.test(intercept ~ language, data = filter(fra_eng_rate, pronoun == '2'), alternative='l')
+# ****************************************************************************************
+# Welch Two Sample t-test
+# 
+# data:  intercept by language
+# t = -3.7212, df = 44.575, p-value = 0.0002766
+# alternative hypothesis: true difference in means is less than 0
+# 95 percent confidence interval:
+#   -Inf -3.780902
+# sample estimates:
+#   mean in group eng mean in group fra 
+# 2.503035          9.394928 
+
+t.test(rate ~ language, data = filter(fra_eng_rate, pronoun == '2'))
+# Welch Two Sample t-test
+# 
+# data:  rate by language
+# t = 1.7429, df = 54.157, p-value = 0.08702
+# alternative hypothesis: true difference in means is not equal to 0
+# 95 percent confidence interval:
+#   -0.05827692  0.83423373
+# sample estimates:
+#   mean in group eng mean in group fra 
+# 0.1499797        -0.2379987 
+
+### 1pl
+
+t.test(intercept ~ language, data = filter(fra_eng_rate, pronoun == '1pl'))
+# Welch Two Sample t-test
+# 
+# data:  intercept by language
+# t = 1.0574, df = 18.218, p-value = 0.3042
+# alternative hypothesis: true difference in means is not equal to 0
+# 95 percent confidence interval:
+#   -0.1657643  0.5022704
+# sample estimates:
+#   mean in group eng mean in group fra 
+# 0.4393890         0.2711359 
+
+t.test(rate ~ language, data = filter(fra_eng_rate, pronoun == '1pl'))
+# Welch Two Sample t-test
+# 
+# data:  rate by language
+# t = 1.5251, df = 18.799, p-value = 0.1439
+# alternative hypothesis: true difference in means is not equal to 0
+# 95 percent confidence interval:
+#   -0.01134734  0.07212843
+# sample estimates:
+#   mean in group eng mean in group fra 
+# 0.01808877       -0.01230178 
+
+### 1sg
+
+t.test(intercept ~ language, data = filter(fra_eng_rate, pronoun == '1sg'), alternative = 'g')
+# *************************************************
+# Welch Two Sample t-test
+# 
+# data:  intercept by language
+# t = 1.7077, df = 36.115, p-value = 0.04813
+# alternative hypothesis: true difference in means is greater than 0
+# 95 percent confidence interval:
+#   0.01564129        Inf
+# sample estimates:
+#   mean in group eng mean in group fra 
+# 2.631921          1.268000 
+
+t.test(rate ~ language, data = filter(fra_eng_rate, pronoun == '1sg'))
+# Welch Two Sample t-test
+# 
+# data:  rate by language
+# t = 1.3936, df = 39.234, p-value = 0.1713
+# alternative hypothesis: true difference in means is not equal to 0
+# 95 percent confidence interval:
+#   -0.06005819  0.32629462
+# sample estimates:
+#   mean in group eng mean in group fra 
+# 0.2736973         0.1405791 
+
+
+### fra on
+t.test(intercept ~ pronoun, data = filter(fra_rate, pronoun == '1pl' | pronoun == 'on'))
+# Welch Two Sample t-test
+# 
+# data:  intercept by pronoun
+# t = -0.85038, df = 17.528, p-value = 0.4066
+# alternative hypothesis: true difference in means is not equal to 0
+# 95 percent confidence interval:
+#   -1.6649485  0.7068019
+# sample estimates:
+#   mean in group 1pl  mean in group on 
+# 0.2711359         0.7502093 
+
+### fra num
+
+fra_rate %>% 
+  mutate(pronoun = ifelse(pronoun == 'y'|pronoun=='on'|pronoun == '1sg'|pronoun == '2sg'|pronoun == '3sg','sg', 'pl' )) -> fra_rate_num
+
+t.test(rate ~ pronoun, data = fra_rate_num)  
+# Welch Two Sample t-test
+# 
+# data:  rate by pronoun
+# t = 0.21451, df = 254.15, p-value = 0.8303
+# alternative hypothesis: true difference in means is not equal to 0
+# 95 percent confidence interval:
+#   -0.2237758  0.2784834
+# sample estimates:
+#   mean in group pl mean in group sg 
+# 0.11246674       0.08511292 
+
+###eng num
+eng_rate %>% 
+  mutate(pronoun = ifelse(pronoun == '1sg'|pronoun == '2sg'|pronoun=='3sgF'|pronoun=='3sgN'|pronoun == '3sgM','sg', 'pl')) -> eng_rate_num
+
+t.test(rate ~ pronoun, data = eng_rate_num)  
+# Welch Two Sample t-test
+# 
+# data:  rate by pronoun
+# t = 0.49558, df = 340.94, p-value = 0.6205
+# alternative hypothesis: true difference in means is not equal to 0
+# 95 percent confidence interval:
+#   -0.0603622  0.1010240
+# sample estimates:
+#   mean in group pl mean in group sg 
+# 0.1503894        0.1300585 
+
