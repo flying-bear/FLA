@@ -151,7 +151,7 @@ eng_fra %>%
   ggplot(aes(age, share, color = pronoun, linetype = language))+
   geom_smooth(method='lm')+
   labs(x = 'age in months', y = 'percent of pronouns in words uttered', 
-       title = 'comparion of English and French pronouns, percent by age approximated by a linear model')
+       title = ' comparion of English and French pronouns,\n percent by age approximated by a linear model')
 
 eng_fra %>% 
   mutate(eng = ifelse(language == 'eng', 1, 0)) %>%

@@ -130,18 +130,18 @@ shapiro.test(fra_rate$intercept)
 # W = 0.74291, p-value < 2.2e-16
 
 
-fra_eng_rate <- rbind(fra_rate, eng_rate)
+fra_eng_rate <- rbind(filter(fra_rate, pronoun %in% comparable), filter(eng_rate, pronoun %in% comparable))
 qqnorm(fra_eng_rate$rate)
 shapiro.test(fra_eng_rate$rate)
-# Shapiro-Wilk normality test ###не нормальное
+# Shapiro-Wilk normality test
 # data:  fra_eng_rate$rate
-# W = 0.74401, p-value < 2.2e-16
+# W = 0.77513, p-value < 2.2e-16
 
 qqnorm(fra_eng_rate$intercept)
 shapiro.test(fra_eng_rate$intercept)
 # Shapiro-Wilk normality test
 # data:  fra_eng_rate$intercept
-# W = 0.70424, p-value < 2.2e-16
+# W = 0.73727, p-value < 2.2e-16
 
 
 
@@ -151,13 +151,13 @@ shapiro.test(fra_eng_rate$intercept)
 wilcox.test(rate ~ language, data = fra_eng_rate)
 # Wilcoxon rank sum test with continuity correction
 # data:  rate by language
-# W = 55245, p-value = 0.1144
+# W = 12226, p-value = 0.4565
 # alternative hypothesis: true location shift is not equal to 0
 
 wilcox.test(intercept ~ language, data = fra_eng_rate)
 # Wilcoxon rank sum test with continuity correction
 # data:  intercept by language
-# W = 51694, p-value = 0.9388
+# W = 12182, p-value = 0.4911
 # alternative hypothesis: true location shift is not equal to 0 
 
 
