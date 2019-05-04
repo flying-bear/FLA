@@ -1,0 +1,20 @@
+word	IPM sketch engine
+I		0.1681
+We		0.0748
+You		0.1680
+He		0.0619
+She		0.0284
+It		0.1646
+They	0.0668
+
+
+word 	IPM sketch engine (bad lemmatization!!)
+je		0.1176
+nous	0.0637
+tu		0.0248
+vous	0.0852
+il		0.1830
+elle	0.0662
+on		0.0717
+y		0.0439
+en		0.2873

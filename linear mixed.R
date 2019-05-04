@@ -1,4 +1,3 @@
-library(lme4)
 library(lmerTest)
 library(tidyverse)
 
@@ -74,6 +73,7 @@ summary(fit_eng)
 # pronoun3    -0.782  0.793  0.471              
 # age:pronon2  0.550 -0.564 -0.993 -0.468       
 # age:pronon3  0.777 -0.798 -0.468 -0.993  0.471
+qqnorm(summary(fit_eng)$residuals)
 
 fit_fra <- lmer(share ~ age*pronoun + (1|childname), data = chi_fra)
 summary(fit_fra)
@@ -121,6 +121,7 @@ summary(fit_fra)
 # pronoun3sg -0.262  0.000  0.500  0.500  0.500  0.500  0.500  0.500              
 # pronounon  -0.262  0.000  0.500  0.500  0.500  0.500  0.500  0.500  0.500       
 # pronouny   -0.262  0.000  0.500  0.500  0.500  0.500  0.500  0.500  0.500  0.500
+qqnorm(summary(fit_fra)$residuals)
 
 
 qqnorm(lm(share ~ age * pronoun, data = chi_fra)$residuals)
