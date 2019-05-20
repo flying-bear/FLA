@@ -58,17 +58,9 @@ eng_fra %>%
 
 
 
-linear <- function(lang, name, pr) {tryCatch({lm(share~age, filter(lang, pronoun == pr & childname == name))$coefficients}, error = function(err){return(c(NA, NA))})}
-# eng %>%
-#   filter(pronoun == '1pl' & childname == 'Anne') -> an
-# 
-# eng %>%
-#   filter(pronoun == '1pl' & childname == 'Anne') %>% 
-#   ggplot(aes(age, share))+
-#   geom_smooth(method='lm')
-# 
-# lm(share~age, data = filter(eng, pronoun == '1pl' & childname == 'Anne'))
-# linear(eng, 'Anne', '1pl')
+linear <- function(lang, name, pr) 
+  {tryCatch({lm(share~age, filter(lang, pronoun == pr & childname == name))$coefficients}, 
+  error = function(err){return(c(NA, NA))})}
 
 
 
@@ -78,7 +70,8 @@ eng_rate <- data.frame(childname= 'name',
                        rate=0, 
                        stringsAsFactors=FALSE)
 
-for (name in unique(eng$childname)) (for (pr in unique(eng$pronoun)) eng_rate <- rbind(eng_rate, c(name, pr, linear(eng, name, pr))))
+for (name in unique(eng$childname)) (for (pr in unique(eng$pronoun)) 
+  {eng_rate <- rbind(eng_rate, c(name, pr, linear(eng, name, pr)))})
 eng_rate <- eng_rate[-c(1), ]
 eng_rate %>% 
   mutate(rate = as.numeric(rate)) %>% 
@@ -143,8 +136,24 @@ shapiro.test(fra_eng_rate$intercept)
 # data:  fra_eng_rate$intercept
 # W = 0.73727, p-value < 2.2e-16
 
+fra_eng_rate %>% 
+  na.omit() %>% 
+  filter(pronoun == '1sg') -> cor_fra_eng_rate_1sg
+
+cor_fra_eng_rate_1sg %>% 
+  ggplot(aes(intercept, rate, color = language))+
+  geom_point(aes(shape = language))+
+  geom_smooth(method='lm', fill = 'white', alpha = 0.05)+
+  labs(x = 'gradient (rate of aquisition)', y = 'intercept (share) at 24 months', 
+       title = 'rate of aquisition by share at 24 moths of 1st person singular,\ncomparion of English and French speaking children', 
+       subtitle="Spearman's correlation = -0.59" )
 
 
+cor(cor_fra_eng_rate_1sg$rate, cor_fra_eng_rate_1sg$intercept, method='spearman')
+# [1] -0.5869036
+
+cor(na.omit(fra_eng_rate)$rate, na.omit(fra_eng_rate)$intercept, method='spearman')
+# [1] -0.4735482
 
 ### general
 
@@ -224,20 +233,39 @@ wilcox.test(rate ~ language, data = filter(fra_eng_rate, pronoun == '1sg'))
 # W = 773, p-value = 0.3041
 # alternative hypothesis: true location shift is not equal to 0 
 
+### negative correlation of of on and 1pl on rate
+# *************************
+pl1_rate <- na.omit(filter(fra_rate, pronoun == '1pl')['rate'])
+on_rate <- na.omit(filter(fra_rate, pronoun == 'on')['rate'])
+cor(pl1_rate[sample(nrow(pl1_rate), 8),], on_rate[sample(nrow(on_rate), 8),])
+# [1] -0.3244136
 
-### fra on
+### negative correlation of of on and 1pl on intercept
+# ****************************************************
+pl1_intercept <- na.omit(filter(fra_rate, pronoun == '1pl')['intercept'])
+on_intercept <- na.omit(filter(fra_rate, pronoun == 'on')['intercept'])
+cor(pl1_intercept[sample(nrow(pl1_intercept), 8),], on_intercept[sample(nrow(on_intercept), 8),])
+# [1] 0.7119556
+
+### fra on intercept
 wilcox.test(intercept ~ pronoun, data = filter(fra_rate, pronoun == '1pl' | pronoun == 'on'))
 # 	Wilcoxon rank sum test
 # data:  intercept by pronoun
 # W = 73, p-value = 0.7975
 # alternative hypothesis: true location shift is not equal to 0 
 
-### fra num
+### fra on rate
+wilcox.test(rate ~ pronoun, data = filter(fra_rate, pronoun == '1pl' | pronoun == 'on'))
+# Wilcoxon rank sum test
+# data:  rate by pronoun
+# W = 40, p-value = 0.1104
+# alternative hypothesis: true location shift is not equal to 0
 
+### fra num
 fra_rate %>% 
   mutate(pronoun = ifelse(pronoun == 'y'|pronoun=='on'|pronoun == '1sg'|pronoun == '2sg'|pronoun == '3sg','sg', 'pl' )) -> fra_rate_num
 
-wilcox.test(rate ~ pronoun, data = fra_rate_num)  
+wilcox.test(rate ~ pronoun, data = fra_rate_num)
 # 	Wilcoxon rank sum test with continuity correction
 # data:  rate by pronoun
 # W = 9644.5, p-value = 0.6119
@@ -247,7 +275,7 @@ wilcox.test(rate ~ pronoun, data = fra_rate_num)
 eng_rate %>% 
   mutate(pronoun = ifelse(pronoun == '1sg'|pronoun == '2sg'|pronoun=='3sgF'|pronoun=='3sgN'|pronoun == '3sgM','sg', 'pl')) -> eng_rate_num
 
-wilcox.test(rate ~ pronoun, data = eng_rate_num)  
+wilcox.test(rate ~ pronoun, data = eng_rate_num)
 # Wilcoxon rank sum test with continuity correction
 # data:  rate by pronoun
 # W = 19440, p-value = 0.09329

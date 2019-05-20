@@ -12,7 +12,7 @@ eng %>%
   na.omit() -> eng
 
 eng %>% 
-  filter(pronoun != '3' & pronoun != '2' ) %>% 
+  filter(pronoun != '3') %>% 
   ggplot(aes(age, share, color = pronoun))+
   geom_smooth(method='lm')+
   labs(x = 'age in months', y = 'percent of pronouns in words uttered', 
@@ -61,6 +61,7 @@ summary(m_eng_mixed)
 # pronoun3sgF -0.206  0.005  0.522  0.523  0.527  0.506              
 # pronoun3sgM -0.250  0.034  0.569  0.572  0.575  0.552  0.502       
 # pronoun3sgN -0.281  0.051  0.601  0.604  0.609  0.578  0.526  0.574
+
 qqnorm(summary(m_eng_mixed)$residuals)
 shapiro.test(summary(m_eng_mixed)$residuals)
 # Shapiro-Wilk normality test
@@ -158,43 +159,49 @@ eng_fra %>%
   mutate(fra = ifelse(language == 'fra', 1, 0)) %>%
   select(-language) -> eng_fra_for_modeling
 
-m1 <- summary(lmer(share~age+pronoun+eng+(1|childname), data = eng_fra_for_modeling))
+m1 <- summary(lmer(share~age+pronoun*eng+(1|childname), data = eng_fra_for_modeling))
 m1
 # ***************************************************************
 # Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
-# Formula: share ~ age + pronoun + eng + (1 | childname)
+# Formula: share ~ age + pronoun * eng + (1 | childname)
 # Data: eng_fra_for_modeling
 # 
-# REML criterion at convergence: 10532.7
+# REML criterion at convergence: 10098.9
 # 
 # Scaled residuals: 
-# Min      1Q  Median      3Q     Max 
-# -2.4463 -0.5765 -0.0952  0.4031  9.8065 
+#   Min      1Q  Median      3Q     Max 
+# -2.8392 -0.5554 -0.0932  0.4327 10.2628 
 # 
 # Random effects:
-# Groups    Name        Variance Std.Dev.
-# childname (Intercept)  2.289   1.513   
-# Residual              10.010   3.164   
+#   Groups    Name        Variance Std.Dev.
+# childname (Intercept) 2.700    1.643   
+# Residual              7.934    2.817   
 # Number of obs: 2015, groups:  childname, 139
 # 
 # Fixed effects:
-# Estimate Std. Error         df t value Pr(>|t|)    
-# (Intercept)   -5.57096    0.77375 1930.10483  -7.200 8.59e-13 ***
-# age            0.19851    0.02256 1984.94915   8.798  < 2e-16 ***
-# pronoun1sg     3.06799    0.24315 1900.22450  12.618  < 2e-16 ***
-# pronoun2       4.94066    0.24084 1907.30403  20.515  < 2e-16 ***
-# pronoun3       7.14703    0.24021 1907.59076  29.754  < 2e-16 ***
-# eng            0.07223    0.29516  180.84146   0.245    0.807    
-# ---
-# Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+#   Estimate Std. Error         df t value Pr(>|t|)    
+# (Intercept)      -4.74138    0.83507 1985.06826  -5.678 1.57e-08 ***
+#   age               0.20519    0.02019 1963.51372  10.163  < 2e-16 ***
+#   pronoun1sg        1.27454    0.52703 1899.29678   2.418   0.0157 *  
+#   pronoun2          6.06410    0.51942 1911.36274  11.675  < 2e-16 ***
+#   pronoun3          4.30525    0.52001 1908.01421   8.279 2.30e-16 ***
+#   eng              -1.13467    0.59183 1508.78265  -1.917   0.0554 .  
+# pronoun1sg:eng    2.40414    0.58032 1894.53919   4.143 3.58e-05 ***
+#   pronoun2:eng     -2.63919    0.57291 1904.78309  -4.607 4.36e-06 ***
+#   pronoun3:eng      4.33777    0.57299 1902.59406   7.570 5.77e-14 ***
+#   ---
+#   Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 # 
 # Correlation of Fixed Effects:
-# (Intr) age    prnn1s pronn2 pronn3
-# age        -0.919                            
-# pronoun1sg -0.276  0.048                     
-# pronoun2   -0.319  0.075  0.692              
-# pronoun3   -0.309  0.067  0.693  0.715       
-# eng        -0.313  0.101  0.076  0.119  0.109
+#   (Intr) age    prnn1s pronn2 pronn3 eng    prnn1: prnn2:
+#   age         -0.770                                                 
+# pronoun1sg  -0.564  0.027                                          
+# pronoun2    -0.598  0.047  0.867                                   
+# pronoun3    -0.589  0.037  0.865  0.888                            
+# eng         -0.604  0.058  0.770  0.796  0.793                     
+# pronn1sg:ng  0.497 -0.006 -0.908 -0.786 -0.785 -0.801              
+# pronoun2:ng  0.524 -0.019 -0.786 -0.906 -0.804 -0.825  0.819       
+# pronoun3:ng  0.515 -0.010 -0.784 -0.804 -0.907 -0.823  0.819  0.838
 
 qqnorm(m1$residuals) # fine
 shapiro.test(m1$residuals)
